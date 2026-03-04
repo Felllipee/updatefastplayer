@@ -23,7 +23,7 @@
     }
   },
   "COMUNICADOS": {
-    "id": "comunicado_01",
+    "id": "comunicado_02",
     "title": "AVISO IMPORTANTE",
     "message": "Manutenção programada hoje às 22h. O serviço pode oscilar durante o período.",
     "durationMs": 10000,
