@@ -1,7 +1,19 @@
 {
   "versionCode": 3,
   "versionName": "v1.0.3-Oficial",
-  "apkUrl": "https://www.dropbox.com/scl/fi/0lbzgm4tzvnw28h1j9f9p/fastplayer-oficial1.0.apk?rlkey=c4rfh43nn5szpg925io0r4nxi&st=vmvemywf&dl=1",
-  "changelog": "Versão com correções de navegação e alinhamento de troca de episodios, atualização D-PAD.",
-  "serverUrl": "http://torkmaster.in:80"
+  "apkUrl": "https://link-do-seu-apk.apk",
+  "changelog": "Novos QR Codes e preços atualizados.",
+  "serverUrl": "http://torkmaster.in:80",
+  "qrCodes": {
+    "Mensal": "https://link-da-imagem-mensal.jpg",
+    "Trimestral": "https://link-da-imagem-trimestral.jpg",
+    "Semestral": "https://link-da-imagem-semestral.jpg",
+    "Anual": "https://link-da-imagem-anual.jpg"
+  },
+  "planPrices": {
+    "Mensal": 30,
+    "Trimestral": 75,
+    "Semestral": 135,
+    "Anual": 220
+  }
 }
