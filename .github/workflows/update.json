@@ -1,19 +1,33 @@
 {
-  "versionCode": 3,
-  "versionName": "v1.0.3-Oficial",
-  "apkUrl": "https://www.dropbox.com/scl/fi/pnw9fblxixw9riif039hs/FastPlayer-Oficial-V1.0.4.apk?rlkey=obfnygeaeap2xcvar4c0aje7p&st=m1gsla1o&dl=1",
-  "changelog": "Versão com correções de navegação e alinhamento de troca de episodios, atualização D-PAD.",
-  "serverUrl": "http://torkmaster.in:80",
-  "qrCodes": {
-    "Mensal": "https://i.ibb.co/F47xR1jy/Mensal.jpg",
-    "Trimestral": "https://i.ibb.co/dshNRQx6/20260207-191723.jpg",
-    "Semestral": "https://i.ibb.co/67Zs2kK3/20260207-192047.jpg",
-    "Anual": "https://i.ibb.co/3YLB9kQ8/20260207-192253.jpg"
+  "ATUALIZACAO_APP": {"versionCode": 3,
+    "versionName": "v1.0.3-Oficial",
+    "apkUrl": "https://www.dropbox.com/scl/fi/pnw9fblxixw9riif039hs/FastPlayer-Oficial-V1.0.4.apk?rlkey=obfnygeaeap2xcvar4c0aje7p&st=m1gsla1o&dl=1",
+    "changelog": "Versão com correções de navegação e alinhamento de troca de episodios, atualização D-PAD."
   },
-  "planPrices": {
-    "Mensal": 30,
-    "Trimestral": 75,
-    "Semestral": 135,
-    "Anual": 220
+  "CONFIG_SERVIDOR": {
+    "serverUrl": "http://torkmaster.in:80"
+  },
+  "PAGAMENTOS": {
+    "qrCodes": {
+      "Mensal": "https://i.ibb.co/F47xR1jy/Mensal.jpg",
+      "Trimestral": "https://i.ibb.co/dshNRQx6/20260207-191723.jpg",
+      "Semestral": "https://i.ibb.co/67Zs2kK3/20260207-192047.jpg",
+      "Anual": "https://i.ibb.co/3YLB9kQ8/20260207-192253.jpg"
+    },
+    "planPrices": {
+      "Mensal": 30,
+      "Trimestral": 75,
+      "Semestral": 135,
+      "Anual": 220
+    }
+  },
+  "COMUNICADOS": {
+    "id": "comunicado_01",
+    "title": "AVISO IMPORTANTE",
+    "message": "Manutenção programada hoje às 22h. O serviço pode oscilar durante o período.",
+    "durationMs": 10000,
+    "startTime": "00:00",
+    "endTime": "23:59",
+    "maxShows": 3
   }
 }
