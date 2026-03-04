@@ -25,7 +25,7 @@
   "COMUNICADOS": {
     "id": "comunicado_02",
     "title": "AVISO IMPORTANTE",
-    "message": "Manutenção programada hoje às 22h. O serviço pode oscilar durante o período.",
+    "message": "Nova Atualização Disponivel para instalar",
     "durationMs": 10000,
     "startTime": "00:00",
     "endTime": "23:59",
