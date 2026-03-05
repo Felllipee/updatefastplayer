@@ -28,7 +28,7 @@
     "message": "Nova Atualização Disponivel para instalar",
     "durationMs": 10000,
     "startTime": "00:00",
-    "endTime": "23:59",
+    "endTime": "00:00",
     "maxShows": 3
   }
 }
