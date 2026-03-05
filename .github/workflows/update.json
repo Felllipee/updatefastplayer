@@ -23,7 +23,7 @@
     }
   },
   "COMUNICADOS": {
-    "id": "comunicado_02",
+    "id": "comunicado_03",
     "title": "AVISO IMPORTANTE",
     "message": "Nova Atualização Disponivel para instalar",
     "durationMs": 10000,
