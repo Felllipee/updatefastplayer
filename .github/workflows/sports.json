@@ -1,0 +1,74 @@
+{
+    "JOGOS_ESPORTES": [
+        {
+            "fixture": {
+                "id": 1522341,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-14T00:30:00+00:00",
+                "timestamp": 1773448200,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 0,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 74,
+                "name": "Brasileiro Women",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/74.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Regular Season - 3",
+                "standings": true
+            },
+            "teams": {
+                "home": {
+                    "id": 9981,
+                    "name": "Palmeiras W",
+                    "logo": "https://media.api-sports.io/football/teams/9981.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 1798,
+                    "name": "Corinthians W",
+                    "logo": "https://media.api-sports.io/football/teams/1798.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 3,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 3,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        }
+    ]
+            }
