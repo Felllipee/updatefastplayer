@@ -1,0 +1,32 @@
+name: Daily Sports Schedule Update
+
+on:
+  schedule:
+    # 06:00 UTC todo dia (aprox 03:00 Horário de Brasília)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Permite rodar manualmente pelo painel do GitHub
+
+jobs:
+  update-sports-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Run Update Script
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+        run: node update_sports.js
+
+      - name: Commit and Push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add update.json
+          git commit -m "Automated update of daily sports games" || echo "No changes to commit"
+          git push
