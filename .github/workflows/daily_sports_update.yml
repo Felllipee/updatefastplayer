@@ -2,13 +2,15 @@ name: Daily Sports Schedule Update
 
 on:
   schedule:
-    # 06:00 UTC todo dia (aprox 03:00 Horário de Brasília)
+    # 06:00 UTC todo dia (aprox 03:00 Horario de Brasilia)
     - cron: '0 6 * * *'
   workflow_dispatch: # Permite rodar manualmente pelo painel do GitHub
 
 jobs:
   update-sports-json:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
