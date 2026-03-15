@@ -73,13 +73,13 @@
         {
             "fixture": {
                 "id": 1378153,
-                "referee": "M. Marchetti",
+                "referee": "Matteo Marchetti, Italy",
                 "timezone": "UTC",
                 "date": "2026-03-15T11:30:00+00:00",
                 "timestamp": 1773574200,
                 "periods": {
-                    "first": null,
-                    "second": null
+                    "first": 1773574200,
+                    "second": 1773577800
                 },
                 "venue": {
                     "id": 0,
@@ -87,10 +87,10 @@
                     "city": "Verona"
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": 5
                 }
             },
             "league": {
@@ -108,27 +108,27 @@
                     "id": 504,
                     "name": "Hellas Verona",
                     "logo": "https://media.api-sports.io/football/teams/504.png",
-                    "winner": null
+                    "winner": false
                 },
                 "away": {
                     "id": 495,
                     "name": "Genoa",
                     "logo": "https://media.api-sports.io/football/teams/495.png",
-                    "winner": null
+                    "winner": true
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "fulltime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 2
                 },
                 "extratime": {
                     "home": null,
@@ -148,8 +148,8 @@
                 "date": "2026-03-15T12:00:00+00:00",
                 "timestamp": 1773576000,
                 "periods": {
-                    "first": null,
-                    "second": null
+                    "first": 1773576000,
+                    "second": 1773579600
                 },
                 "venue": {
                     "id": null,
@@ -157,10 +157,10 @@
                     "city": null
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": 4
                 }
             },
             "league": {
@@ -178,27 +178,27 @@
                     "id": 7785,
                     "name": "Santos AP",
                     "logo": "https://media.api-sports.io/football/teams/7785.png",
-                    "winner": null
+                    "winner": true
                 },
                 "away": {
                     "id": 7847,
                     "name": "Macapá",
                     "logo": "https://media.api-sports.io/football/teams/7847.png",
-                    "winner": null
+                    "winner": false
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 5,
+                "away": 0
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 3,
+                    "away": 0
                 },
                 "fulltime": {
-                    "home": null,
-                    "away": null
+                    "home": 5,
+                    "away": 0
                 },
                 "extratime": {
                     "home": null,
@@ -213,13 +213,13 @@
         {
             "fixture": {
                 "id": 1391094,
-                "referee": "R. De Burgos",
+                "referee": "Ricardo De Burgos Bengoetxea, Spain",
                 "timezone": "UTC",
                 "date": "2026-03-15T13:00:00+00:00",
                 "timestamp": 1773579600,
                 "periods": {
-                    "first": null,
-                    "second": null
+                    "first": 1773579600,
+                    "second": 1773583200
                 },
                 "venue": {
                     "id": 19940,
@@ -227,10 +227,10 @@
                     "city": "Palma de Mallorca"
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": 9
                 }
             },
             "league": {
@@ -248,27 +248,27 @@
                     "id": 798,
                     "name": "Mallorca",
                     "logo": "https://media.api-sports.io/football/teams/798.png",
-                    "winner": null
+                    "winner": true
                 },
                 "away": {
                     "id": 540,
                     "name": "Espanyol",
                     "logo": "https://media.api-sports.io/football/teams/540.png",
-                    "winner": null
+                    "winner": false
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 2,
+                "away": 1
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 1
                 },
                 "fulltime": {
-                    "home": null,
-                    "away": null
+                    "home": 2,
+                    "away": 1
                 },
                 "extratime": {
                     "home": null,
@@ -288,8 +288,8 @@
                 "date": "2026-03-15T13:00:00+00:00",
                 "timestamp": 1773579600,
                 "periods": {
-                    "first": null,
-                    "second": null
+                    "first": 1773579600,
+                    "second": 1773583200
                 },
                 "venue": {
                     "id": null,
@@ -297,10 +297,10 @@
                     "city": null
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": 5
                 }
             },
             "league": {
@@ -318,27 +318,27 @@
                     "id": 10033,
                     "name": "EC São Bernardo",
                     "logo": "https://media.api-sports.io/football/teams/10033.png",
-                    "winner": null
+                    "winner": false
                 },
                 "away": {
                     "id": 10023,
                     "name": "Portuguesa Santista",
                     "logo": "https://media.api-sports.io/football/teams/10023.png",
-                    "winner": null
+                    "winner": true
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 3
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 1
                 },
                 "fulltime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 3
                 },
                 "extratime": {
                     "home": null,
@@ -358,8 +358,8 @@
                 "date": "2026-03-15T13:00:00+00:00",
                 "timestamp": 1773579600,
                 "periods": {
-                    "first": null,
-                    "second": null
+                    "first": 1773579600,
+                    "second": 1773583200
                 },
                 "venue": {
                     "id": null,
@@ -367,10 +367,10 @@
                     "city": null
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": 7
                 }
             },
             "league": {
@@ -388,27 +388,27 @@
                     "id": 22946,
                     "name": "Francana",
                     "logo": "https://media.api-sports.io/football/teams/22946.png",
-                    "winner": null
+                    "winner": true
                 },
                 "away": {
                     "id": 10024,
                     "name": "Rio Claro",
                     "logo": "https://media.api-sports.io/football/teams/10024.png",
-                    "winner": null
+                    "winner": false
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 0
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 3,
+                    "away": 0
                 },
                 "fulltime": {
-                    "home": null,
-                    "away": null
+                    "home": 3,
+                    "away": 0
                 },
                 "extratime": {
                     "home": null,
@@ -428,8 +428,8 @@
                 "date": "2026-03-15T13:00:00+00:00",
                 "timestamp": 1773579600,
                 "periods": {
-                    "first": null,
-                    "second": null
+                    "first": 1773579600,
+                    "second": 1773583200
                 },
                 "venue": {
                     "id": null,
@@ -437,10 +437,10 @@
                     "city": null
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": 6
                 }
             },
             "league": {
@@ -458,27 +458,27 @@
                     "id": 22956,
                     "name": "XV de Jau",
                     "logo": "https://media.api-sports.io/football/teams/22956.png",
-                    "winner": null
+                    "winner": true
                 },
                 "away": {
                     "id": 10035,
                     "name": "Marília",
                     "logo": "https://media.api-sports.io/football/teams/10035.png",
-                    "winner": null
+                    "winner": false
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 1,
+                "away": 0
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "fulltime": {
-                    "home": null,
-                    "away": null
+                    "home": 1,
+                    "away": 0
                 },
                 "extratime": {
                     "home": null,
@@ -498,8 +498,8 @@
                 "date": "2026-03-15T13:00:00+00:00",
                 "timestamp": 1773579600,
                 "periods": {
-                    "first": null,
-                    "second": null
+                    "first": 1773579600,
+                    "second": 1773583200
                 },
                 "venue": {
                     "id": null,
@@ -507,9 +507,9 @@
                     "city": "Sao Paulo"
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
                     "extra": null
                 }
             },
@@ -528,27 +528,27 @@
                     "id": 10019,
                     "name": "Juventus",
                     "logo": "https://media.api-sports.io/football/teams/10019.png",
-                    "winner": null
+                    "winner": true
                 },
                 "away": {
                     "id": 7826,
                     "name": "Ferroviária",
                     "logo": "https://media.api-sports.io/football/teams/7826.png",
-                    "winner": null
+                    "winner": false
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 2,
+                "away": 1
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 1,
+                    "away": 1
                 },
                 "fulltime": {
-                    "home": null,
-                    "away": null
+                    "home": 2,
+                    "away": 1
                 },
                 "extratime": {
                     "home": null,
@@ -563,13 +563,13 @@
         {
             "fixture": {
                 "id": 1378149,
-                "referee": "F. La Penna",
+                "referee": "Federico La Penna, Italy",
                 "timezone": "UTC",
                 "date": "2026-03-15T14:00:00+00:00",
                 "timestamp": 1773583200,
                 "periods": {
-                    "first": null,
-                    "second": null
+                    "first": 1773583200,
+                    "second": 1773586800
                 },
                 "venue": {
                     "id": 925,
@@ -577,10 +577,10 @@
                     "city": "Pisa"
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": 6
                 }
             },
             "league": {
@@ -598,27 +598,27 @@
                     "id": 801,
                     "name": "Pisa",
                     "logo": "https://media.api-sports.io/football/teams/801.png",
-                    "winner": null
+                    "winner": true
                 },
                 "away": {
                     "id": 490,
                     "name": "Cagliari",
                     "logo": "https://media.api-sports.io/football/teams/490.png",
-                    "winner": null
+                    "winner": false
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 1
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 1,
+                    "away": 0
                 },
                 "fulltime": {
-                    "home": null,
-                    "away": null
+                    "home": 3,
+                    "away": 1
                 },
                 "extratime": {
                     "home": null,
@@ -633,13 +633,13 @@
         {
             "fixture": {
                 "id": 1378150,
-                "referee": "K. Bonacina",
+                "referee": "Kevin Bonacina, Italy",
                 "timezone": "UTC",
                 "date": "2026-03-15T14:00:00+00:00",
                 "timestamp": 1773583200,
                 "periods": {
-                    "first": null,
-                    "second": null
+                    "first": 1773583200,
+                    "second": 1773586800
                 },
                 "venue": {
                     "id": 0,
@@ -647,10 +647,10 @@
                     "city": "Reggio Emilia"
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": 9
                 }
             },
             "league": {
@@ -668,27 +668,27 @@
                     "id": 488,
                     "name": "Sassuolo",
                     "logo": "https://media.api-sports.io/football/teams/488.png",
-                    "winner": null
+                    "winner": false
                 },
                 "away": {
                     "id": 500,
                     "name": "Bologna",
                     "logo": "https://media.api-sports.io/football/teams/500.png",
-                    "winner": null
+                    "winner": true
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 1
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 1
                 },
                 "fulltime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 1
                 },
                 "extratime": {
                     "home": null,
@@ -703,13 +703,13 @@
         {
             "fixture": {
                 "id": 1379263,
-                "referee": "T. Bramall",
+                "referee": "Thomas Bramall, England",
                 "timezone": "UTC",
                 "date": "2026-03-15T14:00:00+00:00",
                 "timestamp": 1773583200,
                 "periods": {
-                    "first": null,
-                    "second": null
+                    "first": 1773583200,
+                    "second": 1773586800
                 },
                 "venue": {
                     "id": 525,
@@ -717,10 +717,10 @@
                     "city": "London"
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": 5
                 }
             },
             "league": {
@@ -748,17 +748,17 @@
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "fulltime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "extratime": {
                     "home": null,
@@ -773,13 +773,13 @@
         {
             "fixture": {
                 "id": 1379265,
-                "referee": "A. Taylor",
+                "referee": "Anthony Taylor, England",
                 "timezone": "UTC",
                 "date": "2026-03-15T14:00:00+00:00",
                 "timestamp": 1773583200,
                 "periods": {
-                    "first": null,
-                    "second": null
+                    "first": 1773583200,
+                    "second": 1773586800
                 },
                 "venue": {
                     "id": 556,
@@ -787,10 +787,10 @@
                     "city": "Manchester"
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": 8
                 }
             },
             "league": {
@@ -808,27 +808,27 @@
                     "id": 33,
                     "name": "Manchester United",
                     "logo": "https://media.api-sports.io/football/teams/33.png",
-                    "winner": null
+                    "winner": true
                 },
                 "away": {
                     "id": 66,
                     "name": "Aston Villa",
                     "logo": "https://media.api-sports.io/football/teams/66.png",
-                    "winner": null
+                    "winner": false
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 1
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "fulltime": {
-                    "home": null,
-                    "away": null
+                    "home": 3,
+                    "away": 1
                 },
                 "extratime": {
                     "home": null,
@@ -843,13 +843,13 @@
         {
             "fixture": {
                 "id": 1379266,
-                "referee": "S. Barrott",
+                "referee": "Samuel Barrott, England",
                 "timezone": "UTC",
                 "date": "2026-03-15T14:00:00+00:00",
                 "timestamp": 1773583200,
                 "periods": {
-                    "first": null,
-                    "second": null
+                    "first": 1773583200,
+                    "second": 1773586800
                 },
                 "venue": {
                     "id": 566,
@@ -857,10 +857,10 @@
                     "city": "Nottingham"
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": 6
                 }
             },
             "league": {
@@ -888,17 +888,17 @@
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "fulltime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "extratime": {
                     "home": null,
@@ -913,13 +913,13 @@
         {
             "fixture": {
                 "id": 1387931,
-                "referee": "B. Millot",
+                "referee": "Benoît Millot, France",
                 "timezone": "UTC",
                 "date": "2026-03-15T14:00:00+00:00",
                 "timestamp": 1773583200,
                 "periods": {
-                    "first": null,
-                    "second": null
+                    "first": 1773583200,
+                    "second": 1773586800
                 },
                 "venue": {
                     "id": 681,
@@ -927,10 +927,10 @@
                     "city": "Strasbourg"
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": 5
                 }
             },
             "league": {
@@ -958,17 +958,17 @@
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "fulltime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "extratime": {
                     "home": null,
@@ -983,13 +983,13 @@
         {
             "fixture": {
                 "id": 1388541,
-                "referee": null,
+                "referee": "Mitja Stegemann, Germany",
                 "timezone": "UTC",
                 "date": "2026-03-15T14:30:00+00:00",
                 "timestamp": 1773585000,
                 "periods": {
-                    "first": null,
-                    "second": null
+                    "first": 1773585000,
+                    "second": 1773588600
                 },
                 "venue": {
                     "id": null,
@@ -997,10 +997,10 @@
                     "city": "Bremen"
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": 5
                 }
             },
             "league": {
@@ -1018,27 +1018,27 @@
                     "id": 162,
                     "name": "Werder Bremen",
                     "logo": "https://media.api-sports.io/football/teams/162.png",
-                    "winner": null
+                    "winner": false
                 },
                 "away": {
                     "id": 164,
                     "name": "FSV Mainz 05",
                     "logo": "https://media.api-sports.io/football/teams/164.png",
-                    "winner": null
+                    "winner": true
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 2
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 1
                 },
                 "fulltime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 2
                 },
                 "extratime": {
                     "home": null,
@@ -1053,13 +1053,13 @@
         {
             "fixture": {
                 "id": 1391091,
-                "referee": "J. Martinez",
+                "referee": "Juan Martinez Munuera, Spain",
                 "timezone": "UTC",
                 "date": "2026-03-15T15:15:00+00:00",
                 "timestamp": 1773587700,
                 "periods": {
-                    "first": null,
-                    "second": null
+                    "first": 1773587700,
+                    "second": 1773591300
                 },
                 "venue": {
                     "id": 19939,
@@ -1067,9 +1067,9 @@
                     "city": "Barcelona"
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
+                    "long": "Second Half",
+                    "short": "2H",
+                    "elapsed": 81,
                     "extra": null
                 }
             },
@@ -1088,23 +1088,23 @@
                     "id": 529,
                     "name": "Barcelona",
                     "logo": "https://media.api-sports.io/football/teams/529.png",
-                    "winner": null
+                    "winner": true
                 },
                 "away": {
                     "id": 536,
                     "name": "Sevilla",
                     "logo": "https://media.api-sports.io/football/teams/536.png",
-                    "winner": null
+                    "winner": false
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 5,
+                "away": 1
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 3,
+                    "away": 1
                 },
                 "fulltime": {
                     "home": null,
@@ -1193,12 +1193,12 @@
         {
             "fixture": {
                 "id": 1387924,
-                "referee": "J. Stinat",
+                "referee": "Jeremy Stinat, France",
                 "timezone": "UTC",
                 "date": "2026-03-15T16:15:00+00:00",
                 "timestamp": 1773591300,
                 "periods": {
-                    "first": null,
+                    "first": 1773591300,
                     "second": null
                 },
                 "venue": {
@@ -1207,9 +1207,9 @@
                     "city": "Le Havre"
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
+                    "long": "First Half",
+                    "short": "1H",
+                    "elapsed": 45,
                     "extra": null
                 }
             },
@@ -1238,13 +1238,13 @@
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "fulltime": {
                     "home": null,
@@ -1263,12 +1263,12 @@
         {
             "fixture": {
                 "id": 1387927,
-                "referee": "G. Angoula",
+                "referee": "Gael Angoula, France",
                 "timezone": "UTC",
                 "date": "2026-03-15T16:15:00+00:00",
                 "timestamp": 1773591300,
                 "periods": {
-                    "first": null,
+                    "first": 1773591300,
                     "second": null
                 },
                 "venue": {
@@ -1277,9 +1277,9 @@
                     "city": "Metz"
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
+                    "long": "First Half",
+                    "short": "1H",
+                    "elapsed": 45,
                     "extra": null
                 }
             },
@@ -1308,13 +1308,13 @@
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 2,
+                "away": 2
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 2,
+                    "away": 2
                 },
                 "fulltime": {
                     "home": null,
@@ -1333,12 +1333,12 @@
         {
             "fixture": {
                 "id": 1379264,
-                "referee": "C. Kavanagh",
+                "referee": "Chris Kavanagh, England",
                 "timezone": "UTC",
                 "date": "2026-03-15T16:30:00+00:00",
                 "timestamp": 1773592200,
                 "periods": {
-                    "first": null,
+                    "first": 1773592200,
                     "second": null
                 },
                 "venue": {
@@ -1347,9 +1347,9 @@
                     "city": "Liverpool"
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
+                    "long": "First Half",
+                    "short": "1H",
+                    "elapsed": 30,
                     "extra": null
                 }
             },
@@ -1368,23 +1368,23 @@
                     "id": 40,
                     "name": "Liverpool",
                     "logo": "https://media.api-sports.io/football/teams/40.png",
-                    "winner": null
+                    "winner": true
                 },
                 "away": {
                     "id": 47,
                     "name": "Tottenham",
                     "logo": "https://media.api-sports.io/football/teams/47.png",
-                    "winner": null
+                    "winner": false
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 1,
+                "away": 0
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 1,
+                    "away": 0
                 },
                 "fulltime": {
                     "home": null,
@@ -1403,23 +1403,23 @@
         {
             "fixture": {
                 "id": 1388537,
-                "referee": null,
+                "referee": "Sven Jablonski, Germany",
                 "timezone": "UTC",
                 "date": "2026-03-15T16:30:00+00:00",
                 "timestamp": 1773592200,
                 "periods": {
-                    "first": null,
+                    "first": 1773592200,
                     "second": null
                 },
                 "venue": {
-                    "id": null,
-                    "name": "Europa-Park Stadion",
-                    "city": "Freiburg"
+                    "id": 12717,
+                    "name": "Europa-Park-Stadion",
+                    "city": "Freiburg im Breisgau"
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
+                    "long": "First Half",
+                    "short": "1H",
+                    "elapsed": 31,
                     "extra": null
                 }
             },
@@ -1448,13 +1448,13 @@
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 0,
+                "away": 0
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 0,
+                    "away": 0
                 },
                 "fulltime": {
                     "home": null,
@@ -1473,7 +1473,7 @@
         {
             "fixture": {
                 "id": 1378144,
-                "referee": "D. Massa",
+                "referee": "Davide Massa, Italy",
                 "timezone": "UTC",
                 "date": "2026-03-15T17:00:00+00:00",
                 "timestamp": 1773594000,
