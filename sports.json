@@ -2,63 +2,63 @@
     "JOGOS_ESPORTES": [
         {
             "fixture": {
-                "id": 1501173,
+                "id": 1533885,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-16T19:00:00+00:00",
-                "timestamp": 1773687600,
+                "date": "2026-03-17T00:00:00+00:00",
+                "timestamp": 1773705600,
                 "periods": {
                     "first": null,
                     "second": null
                 },
                 "venue": {
-                    "id": null,
+                    "id": 0,
                     "name": null,
                     "city": null
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
                     "extra": null
                 }
             },
             "league": {
-                "id": 521,
-                "name": "Amapaense",
+                "id": 74,
+                "name": "Brasileiro Women",
                 "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/521.png",
+                "logo": "https://media.api-sports.io/football/leagues/74.png",
                 "flag": "https://media.api-sports.io/flags/br.svg",
                 "season": 2026,
-                "round": "Regular Season - 7",
+                "round": "Regular Season - 3",
                 "standings": true
             },
             "teams": {
                 "home": {
-                    "id": 7868,
-                    "name": "Trem",
-                    "logo": "https://media.api-sports.io/football/teams/7868.png",
-                    "winner": null
+                    "id": 16496,
+                    "name": "Bahia W",
+                    "logo": "https://media.api-sports.io/football/teams/16496.png",
+                    "winner": true
                 },
                 "away": {
-                    "id": 2231,
-                    "name": "Ypiranga-PE",
-                    "logo": "https://media.api-sports.io/football/teams/2231.png",
-                    "winner": null
+                    "id": 1804,
+                    "name": "Ec Vitoria W",
+                    "logo": "https://media.api-sports.io/football/teams/1804.png",
+                    "winner": false
                 }
             },
             "goals": {
-                "home": null,
-                "away": null
+                "home": 3,
+                "away": 2
             },
             "score": {
                 "halftime": {
-                    "home": null,
-                    "away": null
+                    "home": 1,
+                    "away": 1
                 },
                 "fulltime": {
-                    "home": null,
-                    "away": null
+                    "home": 3,
+                    "away": 2
                 },
                 "extratime": {
                     "home": null,
@@ -72,229 +72,19 @@
         },
         {
             "fixture": {
-                "id": 1378145,
-                "referee": "M. Di Bello",
+                "id": 1528333,
+                "referee": "S. Scharer",
                 "timezone": "UTC",
-                "date": "2026-03-16T19:45:00+00:00",
-                "timestamp": 1773690300,
+                "date": "2026-03-17T17:45:00+00:00",
+                "timestamp": 1773769500,
                 "periods": {
                     "first": null,
                     "second": null
                 },
                 "venue": {
-                    "id": 894,
-                    "name": "Stadio Giovanni Zini",
-                    "city": "Cremona"
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 135,
-                "name": "Serie A",
-                "country": "Italy",
-                "logo": "https://media.api-sports.io/football/leagues/135.png",
-                "flag": "https://media.api-sports.io/flags/it.svg",
-                "season": 2025,
-                "round": "Regular Season - 29",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 520,
-                    "name": "Cremonese",
-                    "logo": "https://media.api-sports.io/football/teams/520.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 502,
-                    "name": "Fiorentina",
-                    "logo": "https://media.api-sports.io/football/teams/502.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1379260,
-                "referee": "S. Attwell",
-                "timezone": "UTC",
-                "date": "2026-03-16T20:00:00+00:00",
-                "timestamp": 1773691200,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": 10503,
-                    "name": "Brentford Community Stadium",
-                    "city": "London"
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 39,
-                "name": "Premier League",
-                "country": "England",
-                "logo": "https://media.api-sports.io/football/leagues/39.png",
-                "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-                "season": 2025,
-                "round": "Regular Season - 30",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 55,
-                    "name": "Brentford",
-                    "logo": "https://media.api-sports.io/football/teams/55.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 39,
-                    "name": "Wolves",
-                    "logo": "https://media.api-sports.io/football/teams/39.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1391095,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-16T20:00:00+00:00",
-                "timestamp": 1773691200,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": 1488,
-                    "name": "Campo de Futbol de Vallecas",
-                    "city": "Madrid"
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 140,
-                "name": "La Liga",
-                "country": "Spain",
-                "logo": "https://media.api-sports.io/football/leagues/140.png",
-                "flag": "https://media.api-sports.io/flags/es.svg",
-                "season": 2025,
-                "round": "Regular Season - 28",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 728,
-                    "name": "Rayo Vallecano",
-                    "logo": "https://media.api-sports.io/football/teams/728.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 539,
-                    "name": "Levante",
-                    "logo": "https://media.api-sports.io/football/teams/539.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1492162,
-                "referee": "B. Vasconcelos",
-                "timezone": "UTC",
-                "date": "2026-03-16T23:00:00+00:00",
-                "timestamp": 1773702000,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
+                    "id": 0,
                     "name": null,
-                    "city": null
+                    "city": "Lisbon"
                 },
                 "status": {
                     "long": "Not Started",
@@ -304,26 +94,26 @@
                 }
             },
             "league": {
-                "id": 71,
-                "name": "Serie A",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/71.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 6",
+                "id": 2,
+                "name": "UEFA Champions League",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/2.png",
+                "flag": null,
+                "season": 2025,
+                "round": "Round of 16",
                 "standings": true
             },
             "teams": {
                 "home": {
-                    "id": 132,
-                    "name": "Chapecoense-sc",
-                    "logo": "https://media.api-sports.io/football/teams/132.png",
+                    "id": 228,
+                    "name": "Sporting CP",
+                    "logo": "https://media.api-sports.io/football/teams/228.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 130,
-                    "name": "Gremio",
-                    "logo": "https://media.api-sports.io/football/teams/130.png",
+                    "id": 327,
+                    "name": "Bodo/Glimt",
+                    "logo": "https://media.api-sports.io/football/teams/327.png",
                     "winner": null
                 }
             },
@@ -355,10 +145,10 @@
                 "id": 1501175,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-16T23:00:00+00:00",
-                "timestamp": 1773702000,
+                "date": "2026-03-17T18:30:00+00:00",
+                "timestamp": 1773772200,
                 "periods": {
-                    "first": null,
+                    "first": 1773702000,
                     "second": null
                 },
                 "venue": {
@@ -367,10 +157,10 @@
                     "city": null
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
+                    "long": "Match Suspended",
+                    "short": "SUSP",
                     "elapsed": null,
-                    "extra": null
+                    "extra": 5
                 }
             },
             "league": {
@@ -394,6 +184,426 @@
                     "id": 15622,
                     "name": "São José EC",
                     "logo": "https://media.api-sports.io/football/teams/15622.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1528326,
+                "referee": "C. Turpin",
+                "timezone": "UTC",
+                "date": "2026-03-17T20:00:00+00:00",
+                "timestamp": 1773777600,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Etihad Stadium",
+                    "city": "Manchester"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 2,
+                "name": "UEFA Champions League",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/2.png",
+                "flag": null,
+                "season": 2025,
+                "round": "Round of 16",
+                "standings": true
+            },
+            "teams": {
+                "home": {
+                    "id": 50,
+                    "name": "Manchester City",
+                    "logo": "https://media.api-sports.io/football/teams/50.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 541,
+                    "name": "Real Madrid",
+                    "logo": "https://media.api-sports.io/football/teams/541.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1528328,
+                "referee": "S. Vincic",
+                "timezone": "UTC",
+                "date": "2026-03-17T20:00:00+00:00",
+                "timestamp": 1773777600,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Stamford Bridge",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 2,
+                "name": "UEFA Champions League",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/2.png",
+                "flag": null,
+                "season": 2025,
+                "round": "Round of 16",
+                "standings": true
+            },
+            "teams": {
+                "home": {
+                    "id": 49,
+                    "name": "Chelsea",
+                    "logo": "https://media.api-sports.io/football/teams/49.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 85,
+                    "name": "Paris Saint Germain",
+                    "logo": "https://media.api-sports.io/football/teams/85.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1528330,
+                "referee": "D. Makkelie",
+                "timezone": "UTC",
+                "date": "2026-03-17T20:00:00+00:00",
+                "timestamp": 1773777600,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Emirates Stadium",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 2,
+                "name": "UEFA Champions League",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/2.png",
+                "flag": null,
+                "season": 2025,
+                "round": "Round of 16",
+                "standings": true
+            },
+            "teams": {
+                "home": {
+                    "id": 42,
+                    "name": "Arsenal",
+                    "logo": "https://media.api-sports.io/football/teams/42.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 168,
+                    "name": "Bayer Leverkusen",
+                    "logo": "https://media.api-sports.io/football/teams/168.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1532917,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-17T22:00:00+00:00",
+                "timestamp": 1773784800,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio Janio Moraes",
+                    "city": "Rio de Janeiro"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 73,
+                "name": "Copa Do Brasil",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/73.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Round of 64",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 7782,
+                    "name": "Nova Iguaçu",
+                    "logo": "https://media.api-sports.io/football/teams/7782.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 154,
+                    "name": "Fortaleza EC",
+                    "logo": "https://media.api-sports.io/football/teams/154.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1532919,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-17T22:30:00+00:00",
+                "timestamp": 1773786600,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio Primeiro de Maio",
+                    "city": "Sao Bernardo"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 73,
+                "name": "Copa Do Brasil",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/73.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Round of 64",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 7865,
+                    "name": "São Bernardo",
+                    "logo": "https://media.api-sports.io/football/teams/7865.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 129,
+                    "name": "Ceara",
+                    "logo": "https://media.api-sports.io/football/teams/129.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1511987,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-17T23:00:00+00:00",
+                "timestamp": 1773788400,
+                "periods": {
+                    "first": 1771979400,
+                    "second": null
+                },
+                "venue": {
+                    "id": 0,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 607,
+                "name": "Roraimense",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/607.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Regular Season - 5",
+                "standings": true
+            },
+            "teams": {
+                "home": {
+                    "id": 12916,
+                    "name": "GAS",
+                    "logo": "https://media.api-sports.io/football/teams/12916.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 7840,
+                    "name": "Baré",
+                    "logo": "https://media.api-sports.io/football/teams/7840.png",
                     "winner": null
                 }
             },
