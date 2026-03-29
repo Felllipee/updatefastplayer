@@ -2,54 +2,54 @@
     "JOGOS_ESPORTES": [
         {
             "fixture": {
-                "id": 1522356,
+                "id": 1537307,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T00:30:00+00:00",
-                "timestamp": 1774657800,
+                "date": "2026-03-29T00:30:00+00:00",
+                "timestamp": 1774744200,
                 "periods": {
-                    "first": null,
-                    "second": null
+                    "first": 1774744200,
+                    "second": 1774747800
                 },
                 "venue": {
                     "id": null,
-                    "name": "Estadio do Caninde",
-                    "city": "Sao Paulo"
+                    "name": "Estadio Alfredo Jaconi",
+                    "city": "Caxias do Sul"
                 },
                 "status": {
                     "long": "Match Finished",
                     "short": "FT",
                     "elapsed": 90,
-                    "extra": null
+                    "extra": 7
                 }
             },
             "league": {
-                "id": 74,
-                "name": "Brasileiro Women",
+                "id": 1224,
+                "name": "Copa Sul-Sudeste",
                 "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/74.png",
+                "logo": "https://media.api-sports.io/football/leagues/1224.png",
                 "flag": "https://media.api-sports.io/flags/br.svg",
                 "season": 2026,
-                "round": "Regular Season - 5",
-                "standings": true
+                "round": "Group Stage - 2",
+                "standings": false
             },
             "teams": {
                 "home": {
-                    "id": 9982,
-                    "name": "São Paulo W",
-                    "logo": "https://media.api-sports.io/football/teams/9982.png",
-                    "winner": true
+                    "id": 152,
+                    "name": "Juventude",
+                    "logo": "https://media.api-sports.io/football/teams/152.png",
+                    "winner": false
                 },
                 "away": {
-                    "id": 9981,
-                    "name": "Palmeiras W",
-                    "logo": "https://media.api-sports.io/football/teams/9981.png",
-                    "winner": false
+                    "id": 7834,
+                    "name": "Novorizontino",
+                    "logo": "https://media.api-sports.io/football/teams/7834.png",
+                    "winner": true
                 }
             },
             "goals": {
-                "home": 3,
-                "away": 0
+                "home": 0,
+                "away": 2
             },
             "score": {
                 "halftime": {
@@ -57,8 +57,8 @@
                     "away": 0
                 },
                 "fulltime": {
-                    "home": 3,
-                    "away": 0
+                    "home": 0,
+                    "away": 2
                 },
                 "extratime": {
                     "home": null,
@@ -72,11 +72,11 @@
         },
         {
             "fixture": {
-                "id": 1530622,
+                "id": 1530869,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T12:30:00+00:00",
-                "timestamp": 1774701000,
+                "date": "2026-03-29T12:00:00+00:00",
+                "timestamp": 1774785600,
                 "periods": {
                     "first": null,
                     "second": null
@@ -94,26 +94,26 @@
                 }
             },
             "league": {
-                "id": 1069,
-                "name": "Goiano U20",
+                "id": 1073,
+                "name": "Baiano U20",
                 "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1069.png",
+                "logo": "https://media.api-sports.io/football/leagues/1073.png",
                 "flag": "https://media.api-sports.io/flags/br.svg",
                 "season": 2026,
-                "round": "Regular Season - 4",
+                "round": "Regular Season - 6",
                 "standings": false
             },
             "teams": {
                 "home": {
-                    "id": 23198,
-                    "name": "Cerrado EC U20",
-                    "logo": "https://media.api-sports.io/football/teams/23198.png",
+                    "id": 22835,
+                    "name": "Conquista U20",
+                    "logo": "https://media.api-sports.io/football/teams/22835.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 12961,
-                    "name": "Goiás U20",
-                    "logo": "https://media.api-sports.io/football/teams/12961.png",
+                    "id": 27583,
+                    "name": "Serrano U20",
+                    "logo": "https://media.api-sports.io/football/teams/27583.png",
                     "winner": null
                 }
             },
@@ -142,291 +142,11 @@
         },
         {
             "fixture": {
-                "id": 1530623,
+                "id": 1536109,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T12:30:00+00:00",
-                "timestamp": 1774701000,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1069,
-                "name": "Goiano U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1069.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 4",
-                "standings": false
-            },
-            "teams": {
-                "home": {
-                    "id": 13066,
-                    "name": "Trindade U20",
-                    "logo": "https://media.api-sports.io/football/teams/13066.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 23199,
-                    "name": "Guanabara City U20",
-                    "logo": "https://media.api-sports.io/football/teams/23199.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1530710,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T13:00:00+00:00",
-                "timestamp": 1774702800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1082,
-                "name": "Copa Rio U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1082.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Group Stage - 6",
-                "standings": false
-            },
-            "teams": {
-                "home": {
-                    "id": 12982,
-                    "name": "América RJ U20",
-                    "logo": "https://media.api-sports.io/football/teams/12982.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 12979,
-                    "name": "Vasco da Gama U20",
-                    "logo": "https://media.api-sports.io/football/teams/12979.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1530711,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T13:00:00+00:00",
-                "timestamp": 1774702800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1082,
-                "name": "Copa Rio U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1082.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Group Stage - 6",
-                "standings": false
-            },
-            "teams": {
-                "home": {
-                    "id": 22875,
-                    "name": "Botafogo U20",
-                    "logo": "https://media.api-sports.io/football/teams/22875.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 23386,
-                    "name": "Boavista U20",
-                    "logo": "https://media.api-sports.io/football/teams/23386.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1530715,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T13:00:00+00:00",
-                "timestamp": 1774702800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1082,
-                "name": "Copa Rio U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1082.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Group Stage - 6",
-                "standings": false
-            },
-            "teams": {
-                "home": {
-                    "id": 27579,
-                    "name": "Olaria U20",
-                    "logo": "https://media.api-sports.io/football/teams/27579.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 22831,
-                    "name": "Bangu U20",
-                    "logo": "https://media.api-sports.io/football/teams/22831.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1536107,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T13:00:00+00:00",
-                "timestamp": 1774702800,
+                "date": "2026-03-29T12:00:00+00:00",
+                "timestamp": 1774785600,
                 "periods": {
                     "first": null,
                     "second": null
@@ -455,15 +175,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 13000,
-                    "name": "Cruzeiro U20",
-                    "logo": "https://media.api-sports.io/football/teams/13000.png",
+                    "id": 27641,
+                    "name": "Social U20",
+                    "logo": "https://media.api-sports.io/football/teams/27641.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 23644,
-                    "name": "Betim U20",
-                    "logo": "https://media.api-sports.io/football/teams/23644.png",
+                    "id": 12981,
+                    "name": "América Mineiro U20",
+                    "logo": "https://media.api-sports.io/football/teams/12981.png",
                     "winner": null
                 }
             },
@@ -492,11 +212,11 @@
         },
         {
             "fixture": {
-                "id": 1502840,
+                "id": 1530624,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
+                "date": "2026-03-29T12:30:00+00:00",
+                "timestamp": 1774787400,
                 "periods": {
                     "first": null,
                     "second": null
@@ -514,26 +234,26 @@
                 }
             },
             "league": {
-                "id": 1062,
-                "name": "Paulista - A4",
+                "id": 1069,
+                "name": "Goiano U20",
                 "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1062.png",
+                "logo": "https://media.api-sports.io/football/leagues/1069.png",
                 "flag": "https://media.api-sports.io/flags/br.svg",
                 "season": 2026,
-                "round": "Regular Season - 14",
-                "standings": true
+                "round": "Regular Season - 4",
+                "standings": false
             },
             "teams": {
                 "home": {
-                    "id": 23573,
-                    "name": "ECUS",
-                    "logo": "https://media.api-sports.io/football/teams/23573.png",
+                    "id": 13070,
+                    "name": "Vila Nova U20",
+                    "logo": "https://media.api-sports.io/football/teams/13070.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 18466,
-                    "name": "EC Lemense",
-                    "logo": "https://media.api-sports.io/football/teams/18466.png",
+                    "id": 18322,
+                    "name": "Aparecidense U20",
+                    "logo": "https://media.api-sports.io/football/teams/18322.png",
                     "winner": null
                 }
             },
@@ -562,221 +282,11 @@
         },
         {
             "fixture": {
-                "id": 1502842,
+                "id": 1530716,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1062,
-                "name": "Paulista - A4",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1062.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 14",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 22949,
-                    "name": "Jabaquara",
-                    "logo": "https://media.api-sports.io/football/teams/22949.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 10031,
-                    "name": "Comercial",
-                    "logo": "https://media.api-sports.io/football/teams/10031.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1502845,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1062,
-                "name": "Paulista - A4",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1062.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 14",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 23581,
-                    "name": "Tanabi",
-                    "logo": "https://media.api-sports.io/football/teams/23581.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 23572,
-                    "name": "Colorado Caieiras",
-                    "logo": "https://media.api-sports.io/football/teams/23572.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1522454,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": 0,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 74,
-                "name": "Brasileiro Women",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/74.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 5",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 1802,
-                    "name": "America Mineiro W",
-                    "logo": "https://media.api-sports.io/football/teams/1802.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 27652,
-                    "name": "Mixto W",
-                    "logo": "https://media.api-sports.io/football/teams/27652.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1530712,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
+                "date": "2026-03-29T13:00:00+00:00",
+                "timestamp": 1774789200,
                 "periods": {
                     "first": null,
                     "second": null
@@ -805,15 +315,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 11054,
-                    "name": "Flamengo U20",
-                    "logo": "https://media.api-sports.io/football/teams/11054.png",
+                    "id": 22842,
+                    "name": "Portuguesa RJ U20",
+                    "logo": "https://media.api-sports.io/football/teams/22842.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 27580,
-                    "name": "Cabofriense U20",
-                    "logo": "https://media.api-sports.io/football/teams/27580.png",
+                    "id": 13008,
+                    "name": "Fluminense U20",
+                    "logo": "https://media.api-sports.io/football/teams/13008.png",
                     "winner": null
                 }
             },
@@ -842,11 +352,11 @@
         },
         {
             "fixture": {
-                "id": 1530713,
+                "id": 1530714,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
+                "date": "2026-03-29T18:00:00+00:00",
+                "timestamp": 1774807200,
                 "periods": {
                     "first": null,
                     "second": null
@@ -875,15 +385,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 20762,
-                    "name": "Madureira U20",
-                    "logo": "https://media.api-sports.io/football/teams/20762.png",
+                    "id": 13032,
+                    "name": "Nova Iguaçu U20",
+                    "logo": "https://media.api-sports.io/football/teams/13032.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 25595,
-                    "name": "Maricá U20",
-                    "logo": "https://media.api-sports.io/football/teams/25595.png",
+                    "id": 20772,
+                    "name": "Sampaio Corrêa U20",
+                    "logo": "https://media.api-sports.io/football/teams/20772.png",
                     "winner": null
                 }
             },
@@ -912,11 +422,81 @@
         },
         {
             "fixture": {
-                "id": 1530771,
+                "id": 1530717,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
+                "date": "2026-03-29T18:00:00+00:00",
+                "timestamp": 1774807200,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 1082,
+                "name": "Copa Rio U20",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/1082.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Group Stage - 6",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 13074,
+                    "name": "Volta Redonda U20",
+                    "logo": "https://media.api-sports.io/football/teams/13074.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 13049,
+                    "name": "Resende FC U20",
+                    "logo": "https://media.api-sports.io/football/teams/13049.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1530779,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-29T18:00:00+00:00",
+                "timestamp": 1774807200,
                 "periods": {
                     "first": null,
                     "second": null
@@ -945,15 +525,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 12954,
-                    "name": "Bahia U20",
-                    "logo": "https://media.api-sports.io/football/teams/12954.png",
+                    "id": 13073,
+                    "name": "Vitória da Conquista U20",
+                    "logo": "https://media.api-sports.io/football/teams/13073.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 25814,
-                    "name": "Galícia U20",
-                    "logo": "https://media.api-sports.io/football/teams/25814.png",
+                    "id": 23276,
+                    "name": "Barcelona BA U20",
+                    "logo": "https://media.api-sports.io/football/teams/23276.png",
                     "winner": null
                 }
             },
@@ -982,991 +562,11 @@
         },
         {
             "fixture": {
-                "id": 1530772,
+                "id": 1535849,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1073,
-                "name": "Baiano U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1073.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 6",
-                "standings": false
-            },
-            "teams": {
-                "home": {
-                    "id": 23274,
-                    "name": "Atlético Alagoinhas U20",
-                    "logo": "https://media.api-sports.io/football/teams/23274.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 23278,
-                    "name": "Estrela De Marco U20",
-                    "logo": "https://media.api-sports.io/football/teams/23278.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1530773,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1073,
-                "name": "Baiano U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1073.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 6",
-                "standings": false
-            },
-            "teams": {
-                "home": {
-                    "id": 25813,
-                    "name": "Fluminense de Feira U20",
-                    "logo": "https://media.api-sports.io/football/teams/25813.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 13072,
-                    "name": "Vitória U20",
-                    "logo": "https://media.api-sports.io/football/teams/13072.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1530774,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1073,
-                "name": "Baiano U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1073.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 6",
-                "standings": false
-            },
-            "teams": {
-                "home": {
-                    "id": 23281,
-                    "name": "Jacobina U20",
-                    "logo": "https://media.api-sports.io/football/teams/23281.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 23284,
-                    "name": "SSA U20",
-                    "logo": "https://media.api-sports.io/football/teams/23284.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1530775,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1073,
-                "name": "Baiano U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1073.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 6",
-                "standings": false
-            },
-            "teams": {
-                "home": {
-                    "id": 23282,
-                    "name": "Jequie U20",
-                    "logo": "https://media.api-sports.io/football/teams/23282.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 23279,
-                    "name": "Grapiuna U20",
-                    "logo": "https://media.api-sports.io/football/teams/23279.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1530776,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1073,
-                "name": "Baiano U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1073.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 6",
-                "standings": false
-            },
-            "teams": {
-                "home": {
-                    "id": 20760,
-                    "name": "Juazeirense U20",
-                    "logo": "https://media.api-sports.io/football/teams/20760.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 18326,
-                    "name": "Camaçariense U20",
-                    "logo": "https://media.api-sports.io/football/teams/18326.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1530777,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1073,
-                "name": "Baiano U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1073.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 6",
-                "standings": false
-            },
-            "teams": {
-                "home": {
-                    "id": 23283,
-                    "name": "Leonico U20",
-                    "logo": "https://media.api-sports.io/football/teams/23283.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 23275,
-                    "name": "Bahia de Feira U20",
-                    "logo": "https://media.api-sports.io/football/teams/23275.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1530778,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1073,
-                "name": "Baiano U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1073.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 6",
-                "standings": false
-            },
-            "teams": {
-                "home": {
-                    "id": 25815,
-                    "name": "Porto BA U20",
-                    "logo": "https://media.api-sports.io/football/teams/25815.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 23277,
-                    "name": "Catuense U20",
-                    "logo": "https://media.api-sports.io/football/teams/23277.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1530867,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1073,
-                "name": "Baiano U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1073.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 6",
-                "standings": false
-            },
-            "teams": {
-                "home": {
-                    "id": 25812,
-                    "name": "Feirense U20",
-                    "logo": "https://media.api-sports.io/football/teams/25812.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 27581,
-                    "name": "Camacari U20",
-                    "logo": "https://media.api-sports.io/football/teams/27581.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1530868,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1073,
-                "name": "Baiano U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1073.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 6",
-                "standings": false
-            },
-            "teams": {
-                "home": {
-                    "id": 27582,
-                    "name": "Redencao U20",
-                    "logo": "https://media.api-sports.io/football/teams/27582.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 13017,
-                    "name": "Jacuipense U20",
-                    "logo": "https://media.api-sports.io/football/teams/13017.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1531792,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 476,
-                "name": "Paulista - A2",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/476.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Second Stage - 4",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 10018,
-                    "name": "Água Santa",
-                    "logo": "https://media.api-sports.io/football/teams/10018.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 7779,
-                    "name": "Ituano",
-                    "logo": "https://media.api-sports.io/football/teams/7779.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1533238,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": 0,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 620,
-                "name": "Cearense - 2",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/620.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 3",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 20778,
-                    "name": "Crateús",
-                    "logo": "https://media.api-sports.io/football/teams/20778.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 2229,
-                    "name": "Uniclinic Atletico Clube",
-                    "logo": "https://media.api-sports.io/football/teams/2229.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1535747,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": 0,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1143,
-                "name": "Estadual Junior U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1143.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 2",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 13020,
-                    "name": "Juventude U20",
-                    "logo": "https://media.api-sports.io/football/teams/13020.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 25928,
-                    "name": "Ivoti U20",
-                    "logo": "https://media.api-sports.io/football/teams/25928.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1535837,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 605,
-                "name": "Paulista - A3",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/605.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Quarter-finals",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 10033,
-                    "name": "EC São Bernardo",
-                    "logo": "https://media.api-sports.io/football/teams/10033.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 10035,
-                    "name": "Marília",
-                    "logo": "https://media.api-sports.io/football/teams/10035.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1535839,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 605,
-                "name": "Paulista - A3",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/605.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Quarter-finals",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 10024,
-                    "name": "Rio Claro",
-                    "logo": "https://media.api-sports.io/football/teams/10024.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 22956,
-                    "name": "XV de Jau",
-                    "logo": "https://media.api-sports.io/football/teams/22956.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1535846,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
+                "date": "2026-03-29T18:00:00+00:00",
+                "timestamp": 1774807200,
                 "periods": {
                     "first": null,
                     "second": null
@@ -1995,15 +595,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 24934,
-                    "name": "Real SC U20",
-                    "logo": "https://media.api-sports.io/football/teams/24934.png",
+                    "id": 24933,
+                    "name": "Novo Hamburgo U20",
+                    "logo": "https://media.api-sports.io/football/teams/24933.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 24935,
-                    "name": "SERC Brasil U20",
-                    "logo": "https://media.api-sports.io/football/teams/24935.png",
+                    "id": 24928,
+                    "name": "Caxias U20",
+                    "logo": "https://media.api-sports.io/football/teams/24928.png",
                     "winner": null
                 }
             },
@@ -2032,221 +632,11 @@
         },
         {
             "fixture": {
-                "id": 1535847,
+                "id": 1527420,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1143,
-                "name": "Estadual Junior U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1143.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 2",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 24937,
-                    "name": "Ypiranga Erechim U20",
-                    "logo": "https://media.api-sports.io/football/teams/24937.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 24929,
-                    "name": "Esportivo U20",
-                    "logo": "https://media.api-sports.io/football/teams/24929.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1535848,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": "Estadio Presidente Vargas",
-                    "city": "Santa Maria"
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1143,
-                "name": "Estadual Junior U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1143.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 2",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 25932,
-                    "name": "Santa Maria U20",
-                    "logo": "https://media.api-sports.io/football/teams/25932.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 13011,
-                    "name": "Grêmio U20",
-                    "logo": "https://media.api-sports.io/football/teams/13011.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1536108,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:00:00+00:00",
-                "timestamp": 1774720800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1107,
-                "name": "Mineiro U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1107.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 2",
-                "standings": false
-            },
-            "teams": {
-                "home": {
-                    "id": 27643,
-                    "name": "Nacional de Muriae U20",
-                    "logo": "https://media.api-sports.io/football/teams/27643.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 23643,
-                    "name": "Athletic Club MG U20",
-                    "logo": "https://media.api-sports.io/football/teams/23643.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1527421,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T18:30:00+00:00",
-                "timestamp": 1774722600,
+                "date": "2026-03-29T18:30:00+00:00",
+                "timestamp": 1774809000,
                 "periods": {
                     "first": null,
                     "second": null
@@ -2275,15 +665,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 21171,
-                    "name": "Patriotas",
-                    "logo": "https://media.api-sports.io/football/teams/21171.png",
+                    "id": 9994,
+                    "name": "Toledo",
+                    "logo": "https://media.api-sports.io/football/teams/9994.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 10678,
-                    "name": "Nacional PR",
-                    "logo": "https://media.api-sports.io/football/teams/10678.png",
+                    "id": 18746,
+                    "name": "Laranja Mecânica",
+                    "logo": "https://media.api-sports.io/football/teams/18746.png",
                     "winner": null
                 }
             },
@@ -2312,11 +702,11 @@
         },
         {
             "fixture": {
-                "id": 1528191,
+                "id": 1527422,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T18:30:00+00:00",
-                "timestamp": 1774722600,
+                "date": "2026-03-29T18:30:00+00:00",
+                "timestamp": 1774809000,
                 "periods": {
                     "first": null,
                     "second": null
@@ -2334,10 +724,10 @@
                 }
             },
             "league": {
-                "id": 1071,
-                "name": "Paranaense U20",
+                "id": 614,
+                "name": "Paranaense - 2",
                 "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1071.png",
+                "logo": "https://media.api-sports.io/football/leagues/614.png",
                 "flag": "https://media.api-sports.io/flags/br.svg",
                 "season": 2026,
                 "round": "Regular Season - 5",
@@ -2345,15 +735,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 23237,
-                    "name": "Cascavel U20",
-                    "logo": "https://media.api-sports.io/football/teams/23237.png",
+                    "id": 12940,
+                    "name": "Batel",
+                    "logo": "https://media.api-sports.io/football/teams/12940.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 12957,
-                    "name": "Coritiba U20",
-                    "logo": "https://media.api-sports.io/football/teams/12957.png",
+                    "id": 122,
+                    "name": "Parana",
+                    "logo": "https://media.api-sports.io/football/teams/122.png",
                     "winner": null
                 }
             },
@@ -2382,11 +772,11 @@
         },
         {
             "fixture": {
-                "id": 1528195,
+                "id": 1527423,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T18:30:00+00:00",
-                "timestamp": 1774722600,
+                "date": "2026-03-29T18:30:00+00:00",
+                "timestamp": 1774809000,
                 "periods": {
                     "first": null,
                     "second": null
@@ -2404,10 +794,10 @@
                 }
             },
             "league": {
-                "id": 1071,
-                "name": "Paranaense U20",
+                "id": 614,
+                "name": "Paranaense - 2",
                 "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1071.png",
+                "logo": "https://media.api-sports.io/football/leagues/614.png",
                 "flag": "https://media.api-sports.io/flags/br.svg",
                 "season": 2026,
                 "round": "Regular Season - 5",
@@ -2415,15 +805,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 27553,
-                    "name": "CE União U20",
-                    "logo": "https://media.api-sports.io/football/teams/27553.png",
+                    "id": 23308,
+                    "name": "Paranavaí",
+                    "logo": "https://media.api-sports.io/football/teams/23308.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 27555,
-                    "name": "City London U20",
-                    "logo": "https://media.api-sports.io/football/teams/27555.png",
+                    "id": 7850,
+                    "name": "Prudentópolis",
+                    "logo": "https://media.api-sports.io/football/teams/7850.png",
                     "winner": null
                 }
             },
@@ -2452,17 +842,17 @@
         },
         {
             "fixture": {
-                "id": 1530626,
+                "id": 1527424,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T18:30:00+00:00",
-                "timestamp": 1774722600,
+                "date": "2026-03-29T18:30:00+00:00",
+                "timestamp": 1774809000,
                 "periods": {
                     "first": null,
                     "second": null
                 },
                 "venue": {
-                    "id": null,
+                    "id": 0,
                     "name": null,
                     "city": null
                 },
@@ -2474,220 +864,10 @@
                 }
             },
             "league": {
-                "id": 1069,
-                "name": "Goiano U20",
+                "id": 614,
+                "name": "Paranaense - 2",
                 "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1069.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 4",
-                "standings": false
-            },
-            "teams": {
-                "home": {
-                    "id": 27626,
-                    "name": "Anapolis U20",
-                    "logo": "https://media.api-sports.io/football/teams/27626.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 23203,
-                    "name": "Royal U20",
-                    "logo": "https://media.api-sports.io/football/teams/23203.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1502839,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T19:00:00+00:00",
-                "timestamp": 1774724400,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1062,
-                "name": "Paulista - A4",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1062.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 14",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 10028,
-                    "name": "Barretos",
-                    "logo": "https://media.api-sports.io/football/teams/10028.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 10036,
-                    "name": "Nacional SP",
-                    "logo": "https://media.api-sports.io/football/teams/10036.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1502841,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T19:00:00+00:00",
-                "timestamp": 1774724400,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1062,
-                "name": "Paulista - A4",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1062.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 14",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 23576,
-                    "name": "Inter de Bebedouro",
-                    "logo": "https://media.api-sports.io/football/teams/23576.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 22953,
-                    "name": "Taquaritinga",
-                    "logo": "https://media.api-sports.io/football/teams/22953.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1522360,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T19:00:00+00:00",
-                "timestamp": 1774724400,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": "SESC Protasio Alves",
-                    "city": "Porto Alegre"
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 74,
-                "name": "Brasileiro Women",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/74.png",
+                "logo": "https://media.api-sports.io/football/leagues/614.png",
                 "flag": "https://media.api-sports.io/flags/br.svg",
                 "season": 2026,
                 "round": "Regular Season - 5",
@@ -2695,15 +875,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 3826,
-                    "name": "Internacional RS W",
-                    "logo": "https://media.api-sports.io/football/teams/3826.png",
+                    "id": 12938,
+                    "name": "Araucária",
+                    "logo": "https://media.api-sports.io/football/teams/12938.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 1817,
-                    "name": "Gremio W",
-                    "logo": "https://media.api-sports.io/football/teams/1817.png",
+                    "id": 12914,
+                    "name": "Rio Branco PR",
+                    "logo": "https://media.api-sports.io/football/teams/12914.png",
                     "winner": null
                 }
             },
@@ -2732,87 +912,17 @@
         },
         {
             "fixture": {
-                "id": 1533901,
+                "id": 1534125,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T19:00:00+00:00",
-                "timestamp": 1774724400,
+                "date": "2026-03-29T18:30:00+00:00",
+                "timestamp": 1774809000,
                 "periods": {
                     "first": null,
                     "second": null
                 },
                 "venue": {
-                    "id": null,
-                    "name": "Estadio Kleber Andrade",
-                    "city": "Cariacica"
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 611,
-                "name": "Capixaba",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/611.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Final",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 2225,
-                    "name": "Serra Talhada",
-                    "logo": "https://media.api-sports.io/football/teams/2225.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 20717,
-                    "name": "Porto Vitória",
-                    "logo": "https://media.api-sports.io/football/teams/20717.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1537376,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T19:00:00+00:00",
-                "timestamp": 1774724400,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
+                    "id": 0,
                     "name": null,
                     "city": null
                 },
@@ -2824,166 +934,26 @@
                 }
             },
             "league": {
-                "id": 521,
-                "name": "Amapaense",
+                "id": 612,
+                "name": "Copa do Nordeste",
                 "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/521.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Play Offs",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 15622,
-                    "name": "São José EC",
-                    "logo": "https://media.api-sports.io/football/teams/15622.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 7785,
-                    "name": "Santos AP",
-                    "logo": "https://media.api-sports.io/football/teams/7785.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1534915,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T19:30:00+00:00",
-                "timestamp": 1774726200,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 615,
-                "name": "Rondoniense",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/615.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Final",
-                "standings": false
-            },
-            "teams": {
-                "home": {
-                    "id": 12944,
-                    "name": "Guaporé",
-                    "logo": "https://media.api-sports.io/football/teams/12944.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 7877,
-                    "name": "Rondoniense",
-                    "logo": "https://media.api-sports.io/football/teams/7877.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1537309,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T19:30:00+00:00",
-                "timestamp": 1774726200,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": "Ponta Grossa"
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1224,
-                "name": "Copa Sul-Sudeste",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1224.png",
+                "logo": "https://media.api-sports.io/football/leagues/612.png",
                 "flag": "https://media.api-sports.io/flags/br.svg",
                 "season": 2026,
                 "round": "Group Stage - 2",
-                "standings": false
+                "standings": true
             },
             "teams": {
                 "home": {
-                    "id": 1223,
-                    "name": "Operario-PR",
-                    "logo": "https://media.api-sports.io/football/teams/1223.png",
+                    "id": 1224,
+                    "name": "Juazeirense",
+                    "logo": "https://media.api-sports.io/football/teams/1224.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 2227,
-                    "name": "Tombense",
-                    "logo": "https://media.api-sports.io/football/teams/2227.png",
+                    "id": 2204,
+                    "name": "AO Itabaiana",
+                    "logo": "https://media.api-sports.io/football/teams/2204.png",
                     "winner": null
                 }
             },
@@ -3012,11 +982,11 @@
         },
         {
             "fixture": {
-                "id": 1522361,
+                "id": 1528193,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T20:00:00+00:00",
-                "timestamp": 1774728000,
+                "date": "2026-03-29T19:00:00+00:00",
+                "timestamp": 1774810800,
                 "periods": {
                     "first": null,
                     "second": null
@@ -3034,10 +1004,10 @@
                 }
             },
             "league": {
-                "id": 74,
-                "name": "Brasileiro Women",
+                "id": 1071,
+                "name": "Paranaense U20",
                 "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/74.png",
+                "logo": "https://media.api-sports.io/football/leagues/1071.png",
                 "flag": "https://media.api-sports.io/flags/br.svg",
                 "season": 2026,
                 "round": "Regular Season - 5",
@@ -3045,15 +1015,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 18728,
-                    "name": "RB Bragantino W",
-                    "logo": "https://media.api-sports.io/football/teams/18728.png",
+                    "id": 23240,
+                    "name": "Hope Internacional U20",
+                    "logo": "https://media.api-sports.io/football/teams/23240.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 16496,
-                    "name": "Bahia W",
-                    "logo": "https://media.api-sports.io/football/teams/16496.png",
+                    "id": 23238,
+                    "name": "Cianorte U20",
+                    "logo": "https://media.api-sports.io/football/teams/23238.png",
                     "winner": null
                 }
             },
@@ -3082,11 +1052,11 @@
         },
         {
             "fixture": {
-                "id": 1533239,
+                "id": 1533240,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T20:00:00+00:00",
-                "timestamp": 1774728000,
+                "date": "2026-03-29T19:00:00+00:00",
+                "timestamp": 1774810800,
                 "periods": {
                     "first": null,
                     "second": null
@@ -3115,15 +1085,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 7874,
-                    "name": "Icasa",
-                    "logo": "https://media.api-sports.io/football/teams/7874.png",
+                    "id": 13092,
+                    "name": "Crato",
+                    "logo": "https://media.api-sports.io/football/teams/13092.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 9998,
-                    "name": "Barbalha",
-                    "logo": "https://media.api-sports.io/football/teams/9998.png",
+                    "id": 16750,
+                    "name": "Cariri",
+                    "logo": "https://media.api-sports.io/football/teams/16750.png",
                     "winner": null
                 }
             },
@@ -3152,11 +1122,11 @@
         },
         {
             "fixture": {
-                "id": 1535840,
+                "id": 1535850,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T20:00:00+00:00",
-                "timestamp": 1774728000,
+                "date": "2026-03-29T19:00:00+00:00",
+                "timestamp": 1774810800,
                 "periods": {
                     "first": null,
                     "second": null
@@ -3174,26 +1144,26 @@
                 }
             },
             "league": {
-                "id": 605,
-                "name": "Paulista - A3",
+                "id": 1143,
+                "name": "Estadual Junior U20",
                 "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/605.png",
+                "logo": "https://media.api-sports.io/football/leagues/1143.png",
                 "flag": "https://media.api-sports.io/flags/br.svg",
                 "season": 2026,
-                "round": "Quarter-finals",
+                "round": "Regular Season - 2",
                 "standings": true
             },
             "teams": {
                 "home": {
-                    "id": 22954,
-                    "name": "Uniao Barbarense",
-                    "logo": "https://media.api-sports.io/football/teams/22954.png",
+                    "id": 24936,
+                    "name": "Sao Luiz U20",
+                    "logo": "https://media.api-sports.io/football/teams/24936.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 10040,
-                    "name": "Rio Preto",
-                    "logo": "https://media.api-sports.io/football/teams/10040.png",
+                    "id": 12972,
+                    "name": "São José PA U20",
+                    "logo": "https://media.api-sports.io/football/teams/12972.png",
                     "winner": null
                 }
             },
@@ -3222,11 +1192,151 @@
         },
         {
             "fixture": {
-                "id": 1536884,
+                "id": 1537343,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T20:00:00+00:00",
-                "timestamp": 1774728000,
+                "date": "2026-03-29T19:00:00+00:00",
+                "timestamp": 1774810800,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 1225,
+                "name": "Copa Centro-Oeste",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/1225.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Group Stage - 2",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 12921,
+                    "name": "Capital Brasilia",
+                    "logo": "https://media.api-sports.io/football/teams/12921.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 10690,
+                    "name": "Rio Branco ES",
+                    "logo": "https://media.api-sports.io/football/teams/10690.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1533237,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-29T20:00:00+00:00",
+                "timestamp": 1774814400,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 0,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 620,
+                "name": "Cearense - 2",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/620.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Regular Season - 3",
+                "standings": true
+            },
+            "teams": {
+                "home": {
+                    "id": 7857,
+                    "name": "Guarany de Sobral",
+                    "logo": "https://media.api-sports.io/football/teams/7857.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 10000,
+                    "name": "Caucaia",
+                    "logo": "https://media.api-sports.io/football/teams/10000.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1536888,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-29T20:00:00+00:00",
+                "timestamp": 1774814400,
                 "periods": {
                     "first": null,
                     "second": null
@@ -3255,15 +1365,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 146,
-                    "name": "CRB",
-                    "logo": "https://media.api-sports.io/football/teams/146.png",
+                    "id": 754,
+                    "name": "ABC",
+                    "logo": "https://media.api-sports.io/football/teams/754.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 136,
-                    "name": "Vitoria",
-                    "logo": "https://media.api-sports.io/football/teams/136.png",
+                    "id": 123,
+                    "name": "Sport Recife",
+                    "logo": "https://media.api-sports.io/football/teams/123.png",
                     "winner": null
                 }
             },
@@ -3292,81 +1402,11 @@
         },
         {
             "fixture": {
-                "id": 1536885,
+                "id": 1536889,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T20:00:00+00:00",
-                "timestamp": 1774728000,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": "Arena Pernambuco",
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 612,
-                "name": "Copa do Nordeste",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/612.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Group Stage - 2",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 13098,
-                    "name": "Retrô",
-                    "logo": "https://media.api-sports.io/football/teams/13098.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 129,
-                    "name": "Ceara",
-                    "logo": "https://media.api-sports.io/football/teams/129.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1536886,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T20:00:00+00:00",
-                "timestamp": 1774728000,
+                "date": "2026-03-29T20:00:00+00:00",
+                "timestamp": 1774814400,
                 "periods": {
                     "first": null,
                     "second": null
@@ -3395,15 +1435,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 7832,
-                    "name": "Maranhão",
-                    "logo": "https://media.api-sports.io/football/teams/7832.png",
+                    "id": 7772,
+                    "name": "Confiança",
+                    "logo": "https://media.api-sports.io/football/teams/7772.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 1195,
-                    "name": "Ferroviario",
-                    "logo": "https://media.api-sports.io/football/teams/1195.png",
+                    "id": 15617,
+                    "name": "Fluminense PI",
+                    "logo": "https://media.api-sports.io/football/teams/15617.png",
                     "winner": null
                 }
             },
@@ -3432,11 +1472,361 @@
         },
         {
             "fixture": {
-                "id": 1531793,
+                "id": 1537278,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T21:00:00+00:00",
-                "timestamp": 1774731600,
+                "date": "2026-03-29T20:00:00+00:00",
+                "timestamp": 1774814400,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio Evandro Almeida",
+                    "city": "Belem"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 1223,
+                "name": "Copa Norte",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/1223.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Regular Season - 2",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1198,
+                    "name": "Remo",
+                    "logo": "https://media.api-sports.io/football/teams/1198.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 23158,
+                    "name": "Monte Roraima",
+                    "logo": "https://media.api-sports.io/football/teams/23158.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1537279,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-29T20:00:00+00:00",
+                "timestamp": 1774814400,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio Aluizio Ferreira de Oliveira",
+                    "city": "Porto Velho"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 1223,
+                "name": "Copa Norte",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/1223.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Regular Season - 2",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 12946,
+                    "name": "Porto Velho",
+                    "logo": "https://media.api-sports.io/football/teams/12946.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1228,
+                    "name": "Galvez",
+                    "logo": "https://media.api-sports.io/football/teams/1228.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1537340,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-29T20:00:00+00:00",
+                "timestamp": 1774814400,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": null,
+                    "city": "Primavera do Leste"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 1225,
+                "name": "Copa Centro-Oeste",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/1225.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Group Stage - 2",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 22825,
+                    "name": "Primavera MG",
+                    "logo": "https://media.api-sports.io/football/teams/22825.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 12290,
+                    "name": "Araguaína",
+                    "logo": "https://media.api-sports.io/football/teams/12290.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1537341,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-29T20:00:00+00:00",
+                "timestamp": 1774814400,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio Kleber Andrade",
+                    "city": "Cariacica"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 1225,
+                "name": "Copa Centro-Oeste",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/1225.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Group Stage - 2",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 20717,
+                    "name": "Porto Vitória",
+                    "logo": "https://media.api-sports.io/football/teams/20717.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 144,
+                    "name": "Atletico Goianiense",
+                    "logo": "https://media.api-sports.io/football/teams/144.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1537342,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-29T20:00:00+00:00",
+                "timestamp": 1774814400,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 1225,
+                "name": "Copa Centro-Oeste",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/1225.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Group Stage - 2",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 7852,
+                    "name": "Anápolis",
+                    "logo": "https://media.api-sports.io/football/teams/7852.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 7878,
+                    "name": "Tocantinópolis",
+                    "logo": "https://media.api-sports.io/football/teams/7878.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1531795,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-29T21:00:00+00:00",
+                "timestamp": 1774818000,
                 "periods": {
                     "first": null,
                     "second": null
@@ -3465,15 +1855,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 2230,
-                    "name": "Votuporanguense",
-                    "logo": "https://media.api-sports.io/football/teams/2230.png",
+                    "id": 7826,
+                    "name": "Ferroviária",
+                    "logo": "https://media.api-sports.io/football/teams/7826.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 7870,
-                    "name": "XV de Piracicaba",
-                    "logo": "https://media.api-sports.io/football/teams/7870.png",
+                    "id": 15622,
+                    "name": "São José EC",
+                    "logo": "https://media.api-sports.io/football/teams/15622.png",
                     "winner": null
                 }
             },
@@ -3502,151 +1892,11 @@
         },
         {
             "fixture": {
-                "id": 1502844,
+                "id": 1536890,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T22:00:00+00:00",
-                "timestamp": 1774735200,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1062,
-                "name": "Paulista - A4",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1062.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 14",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 22947,
-                    "name": "Grêmio Sãocarlense",
-                    "logo": "https://media.api-sports.io/football/teams/22947.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 7786,
-                    "name": "São Caetano",
-                    "logo": "https://media.api-sports.io/football/teams/7786.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1535838,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T22:00:00+00:00",
-                "timestamp": 1774735200,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 605,
-                "name": "Paulista - A3",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/605.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Quarter-finals",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 10038,
-                    "name": "Paulista",
-                    "logo": "https://media.api-sports.io/football/teams/10038.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 10023,
-                    "name": "Portuguesa Santista",
-                    "logo": "https://media.api-sports.io/football/teams/10023.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1536887,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T22:00:00+00:00",
-                "timestamp": 1774735200,
+                "date": "2026-03-29T21:00:00+00:00",
+                "timestamp": 1774818000,
                 "periods": {
                     "first": null,
                     "second": null
@@ -3675,15 +1925,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 154,
-                    "name": "Fortaleza EC",
-                    "logo": "https://media.api-sports.io/football/teams/154.png",
+                    "id": 13094,
+                    "name": "Piauí",
+                    "logo": "https://media.api-sports.io/football/teams/13094.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 2213,
-                    "name": "Imperatriz",
-                    "logo": "https://media.api-sports.io/football/teams/2213.png",
+                    "id": 7864,
+                    "name": "Sousa",
+                    "logo": "https://media.api-sports.io/football/teams/7864.png",
                     "winner": null
                 }
             },
@@ -3712,19 +1962,89 @@
         },
         {
             "fixture": {
-                "id": 1537308,
+                "id": 1537277,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T22:00:00+00:00",
-                "timestamp": 1774735200,
+                "date": "2026-03-29T21:00:00+00:00",
+                "timestamp": 1774818000,
                 "periods": {
                     "first": null,
                     "second": null
                 },
                 "venue": {
                     "id": null,
-                    "name": "Raulino de Oliveira",
-                    "city": "Volta Redonda"
+                    "name": null,
+                    "city": "Rio Branco"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 1223,
+                "name": "Copa Norte",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/1223.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Regular Season - 2",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 10853,
+                    "name": "Independência",
+                    "logo": "https://media.api-sports.io/football/teams/10853.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 7781,
+                    "name": "Nacional AM",
+                    "logo": "https://media.api-sports.io/football/teams/7781.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1537306,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-29T21:15:00+00:00",
+                "timestamp": 1774818900,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": null,
+                    "city": null
                 },
                 "status": {
                     "long": "Not Started",
@@ -3745,15 +2065,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 7814,
-                    "name": "Volta Redonda",
-                    "logo": "https://media.api-sports.io/football/teams/7814.png",
+                    "id": 145,
+                    "name": "Avai",
+                    "logo": "https://media.api-sports.io/football/teams/145.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 132,
-                    "name": "Chapecoense-sc",
-                    "logo": "https://media.api-sports.io/football/teams/132.png",
+                    "id": 1194,
+                    "name": "Cianorte",
+                    "logo": "https://media.api-sports.io/football/teams/1194.png",
                     "winner": null
                 }
             },
@@ -3782,17 +2102,17 @@
         },
         {
             "fixture": {
-                "id": 1502843,
+                "id": 1536891,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T22:30:00+00:00",
-                "timestamp": 1774737000,
+                "date": "2026-03-29T21:30:00+00:00",
+                "timestamp": 1774819800,
                 "periods": {
                     "first": null,
                     "second": null
                 },
                 "venue": {
-                    "id": null,
+                    "id": 0,
                     "name": null,
                     "city": null
                 },
@@ -3804,26 +2124,26 @@
                 }
             },
             "league": {
-                "id": 1062,
-                "name": "Paulista - A4",
+                "id": 612,
+                "name": "Copa do Nordeste",
                 "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1062.png",
+                "logo": "https://media.api-sports.io/football/leagues/612.png",
                 "flag": "https://media.api-sports.io/flags/br.svg",
                 "season": 2026,
-                "round": "Regular Season - 14",
+                "round": "Group Stage - 2",
                 "standings": true
             },
             "teams": {
                 "home": {
-                    "id": 10022,
-                    "name": "Penapolense",
-                    "logo": "https://media.api-sports.io/football/teams/10022.png",
+                    "id": 1197,
+                    "name": "Botafogo PB",
+                    "logo": "https://media.api-sports.io/football/teams/1197.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 23569,
-                    "name": "AEA",
-                    "logo": "https://media.api-sports.io/football/teams/23569.png",
+                    "id": 1207,
+                    "name": "ASA",
+                    "logo": "https://media.api-sports.io/football/teams/1207.png",
                     "winner": null
                 }
             },
@@ -3852,19 +2172,19 @@
         },
         {
             "fixture": {
-                "id": 1502846,
+                "id": 1492150,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T22:30:00+00:00",
-                "timestamp": 1774737000,
+                "date": "2026-03-29T22:30:00+00:00",
+                "timestamp": 1774823400,
                 "periods": {
                     "first": null,
                     "second": null
                 },
                 "venue": {
                     "id": null,
-                    "name": null,
-                    "city": null
+                    "name": "Arena da Baixada",
+                    "city": "Curitiba"
                 },
                 "status": {
                     "long": "Not Started",
@@ -3874,26 +2194,26 @@
                 }
             },
             "league": {
-                "id": 1062,
-                "name": "Paulista - A4",
+                "id": 71,
+                "name": "Serie A",
                 "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1062.png",
+                "logo": "https://media.api-sports.io/football/leagues/71.png",
                 "flag": "https://media.api-sports.io/flags/br.svg",
                 "season": 2026,
-                "round": "Regular Season - 14",
+                "round": "Regular Season - 5",
                 "standings": true
             },
             "teams": {
                 "home": {
-                    "id": 22955,
-                    "name": "Vocem",
-                    "logo": "https://media.api-sports.io/football/teams/22955.png",
+                    "id": 134,
+                    "name": "Atletico Paranaense",
+                    "logo": "https://media.api-sports.io/football/teams/134.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 22950,
-                    "name": "Joseense",
-                    "logo": "https://media.api-sports.io/football/teams/22950.png",
+                    "id": 120,
+                    "name": "Botafogo",
+                    "logo": "https://media.api-sports.io/football/teams/120.png",
                     "winner": null
                 }
             },
@@ -3922,11 +2242,11 @@
         },
         {
             "fixture": {
-                "id": 1531794,
+                "id": 1537305,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T22:30:00+00:00",
-                "timestamp": 1774737000,
+                "date": "2026-03-29T22:30:00+00:00",
+                "timestamp": 1774823400,
                 "periods": {
                     "first": null,
                     "second": null
@@ -3934,7 +2254,7 @@
                 "venue": {
                     "id": null,
                     "name": null,
-                    "city": null
+                    "city": "Belo Horizonte"
                 },
                 "status": {
                     "long": "Not Started",
@@ -3944,80 +2264,10 @@
                 }
             },
             "league": {
-                "id": 476,
-                "name": "Paulista - A2",
+                "id": 1224,
+                "name": "Copa Sul-Sudeste",
                 "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/476.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Second Stage - 4",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 10025,
-                    "name": "Sertãozinho",
-                    "logo": "https://media.api-sports.io/football/teams/10025.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 10019,
-                    "name": "Juventus",
-                    "logo": "https://media.api-sports.io/football/teams/10019.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1537345,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-28T22:30:00+00:00",
-                "timestamp": 1774737000,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": null,
-                    "name": null,
-                    "city": "Gama"
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1225,
-                "name": "Copa Centro-Oeste",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1225.png",
+                "logo": "https://media.api-sports.io/football/leagues/1224.png",
                 "flag": "https://media.api-sports.io/flags/br.svg",
                 "season": 2026,
                 "round": "Group Stage - 2",
@@ -4025,15 +2275,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 1222,
-                    "name": "Gama",
-                    "logo": "https://media.api-sports.io/football/teams/1222.png",
+                    "id": 125,
+                    "name": "America Mineiro",
+                    "logo": "https://media.api-sports.io/football/teams/125.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 1193,
-                    "name": "Cuiaba",
-                    "logo": "https://media.api-sports.io/football/teams/1193.png",
+                    "id": 7770,
+                    "name": "Caxias",
+                    "logo": "https://media.api-sports.io/football/teams/7770.png",
                     "winner": null
                 }
             },
@@ -4062,19 +2312,19 @@
         },
         {
             "fixture": {
-                "id": 1537344,
+                "id": 1537304,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-28T23:30:00+00:00",
-                "timestamp": 1774740600,
+                "date": "2026-03-29T23:30:00+00:00",
+                "timestamp": 1774827000,
                 "periods": {
                     "first": null,
                     "second": null
                 },
                 "venue": {
                     "id": null,
-                    "name": null,
-                    "city": null
+                    "name": "Estadio Primeiro de Maio",
+                    "city": "Sao Bernardo"
                 },
                 "status": {
                     "long": "Not Started",
@@ -4084,10 +2334,10 @@
                 }
             },
             "league": {
-                "id": 1225,
-                "name": "Copa Centro-Oeste",
+                "id": 1224,
+                "name": "Copa Sul-Sudeste",
                 "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1225.png",
+                "logo": "https://media.api-sports.io/football/leagues/1224.png",
                 "flag": "https://media.api-sports.io/flags/br.svg",
                 "season": 2026,
                 "round": "Group Stage - 2",
@@ -4095,15 +2345,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 142,
-                    "name": "Vila Nova",
-                    "logo": "https://media.api-sports.io/football/teams/142.png",
+                    "id": 7865,
+                    "name": "São Bernardo",
+                    "logo": "https://media.api-sports.io/football/teams/7865.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 2217,
-                    "name": "Operario Ferroviario",
-                    "logo": "https://media.api-sports.io/football/teams/2217.png",
+                    "id": 13115,
+                    "name": "Sampaio Corrêa RJ",
+                    "logo": "https://media.api-sports.io/football/teams/13115.png",
                     "winner": null
                 }
             },
