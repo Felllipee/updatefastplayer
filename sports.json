@@ -2,164 +2,24 @@
     "JOGOS_ESPORTES": [
         {
             "fixture": {
-                "id": 1536110,
+                "id": 1522365,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-30T13:00:00+00:00",
-                "timestamp": 1774875600,
+                "date": "2026-03-31T00:00:00+00:00",
+                "timestamp": 1774915200,
                 "periods": {
                     "first": null,
                     "second": null
                 },
                 "venue": {
                     "id": null,
-                    "name": null,
-                    "city": null
+                    "name": "Arena Fonte Luminosa",
+                    "city": "Araraquara"
                 },
                 "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 1107,
-                "name": "Mineiro U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1107.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 2",
-                "standings": false
-            },
-            "teams": {
-                "home": {
-                    "id": 27642,
-                    "name": "Sao Joao del Rei U20",
-                    "logo": "https://media.api-sports.io/football/teams/27642.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 25892,
-                    "name": "Villa Real U20",
-                    "logo": "https://media.api-sports.io/football/teams/25892.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1534126,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-30T21:30:00+00:00",
-                "timestamp": 1774906200,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": 0,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 612,
-                "name": "Copa do Nordeste",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/612.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Group Stage - 2",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 7831,
-                    "name": "Jacuipense",
-                    "logo": "https://media.api-sports.io/football/teams/7831.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 2233,
-                    "name": "America-RN",
-                    "logo": "https://media.api-sports.io/football/teams/2233.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1522364,
-                "referee": null,
-                "timezone": "UTC",
-                "date": "2026-03-30T22:00:00+00:00",
-                "timestamp": 1774908000,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": 0,
-                    "name": null,
-                    "city": null
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
                     "extra": null
                 }
             },
@@ -175,15 +35,225 @@
             },
             "teams": {
                 "home": {
-                    "id": 18727,
-                    "name": "Atlético Mineiro W",
-                    "logo": "https://media.api-sports.io/football/teams/18727.png",
+                    "id": 1795,
+                    "name": "Ferroviaria W",
+                    "logo": "https://media.api-sports.io/football/teams/1795.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 9982,
-                    "name": "São Paulo W",
-                    "logo": "https://media.api-sports.io/football/teams/9982.png",
+                    "id": 9980,
+                    "name": "Cruzeiro W",
+                    "logo": "https://media.api-sports.io/football/teams/9980.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1537275,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-31T00:00:00+00:00",
+                "timestamp": 1774915200,
+                "periods": {
+                    "first": 1774915200,
+                    "second": 1774918800
+                },
+                "venue": {
+                    "id": null,
+                    "name": null,
+                    "city": "Manaus"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": 8
+                }
+            },
+            "league": {
+                "id": 1223,
+                "name": "Copa Norte",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/1223.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Regular Season - 2",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 10862,
+                    "name": "Amazonas",
+                    "logo": "https://media.api-sports.io/football/teams/10862.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 7879,
+                    "name": "Águia de Marabá",
+                    "logo": "https://media.api-sports.io/football/teams/7879.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 0,
+                "away": 2
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1522363,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-31T00:30:00+00:00",
+                "timestamp": 1774917000,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Allianz Parque",
+                    "city": "Sao Paulo"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 74,
+                "name": "Brasileiro Women",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/74.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Regular Season - 6",
+                "standings": true
+            },
+            "teams": {
+                "home": {
+                    "id": 9981,
+                    "name": "Palmeiras W",
+                    "logo": "https://media.api-sports.io/football/teams/9981.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1794,
+                    "name": "Flamengo W",
+                    "logo": "https://media.api-sports.io/football/teams/1794.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 1
+            },
+            "score": {
+                "halftime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 1
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1537578,
+                "referee": "C. Turpin",
+                "timezone": "UTC",
+                "date": "2026-03-31T18:45:00+00:00",
+                "timestamp": 1774982700,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Bilino Polje",
+                    "city": "Zenica"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 32,
+                "name": "World Cup - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/32.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Final",
+                "standings": true
+            },
+            "teams": {
+                "home": {
+                    "id": 1113,
+                    "name": "Bosnia & Herzegovina",
+                    "logo": "https://media.api-sports.io/football/teams/1113.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 768,
+                    "name": "Italy",
+                    "logo": "https://media.api-sports.io/football/teams/768.png",
                     "winner": null
                 }
             },
@@ -212,11 +282,361 @@
         },
         {
             "fixture": {
-                "id": 1537276,
+                "id": 1537579,
+                "referee": "M. Mariani",
+                "timezone": "UTC",
+                "date": "2026-03-31T18:45:00+00:00",
+                "timestamp": 1774982700,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "epet ARENA",
+                    "city": "Prague"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 32,
+                "name": "World Cup - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/32.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Final",
+                "standings": true
+            },
+            "teams": {
+                "home": {
+                    "id": 770,
+                    "name": "Czech Republic",
+                    "logo": "https://media.api-sports.io/football/teams/770.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 21,
+                    "name": "Denmark",
+                    "logo": "https://media.api-sports.io/football/teams/21.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1537580,
+                "referee": "M. Oliver",
+                "timezone": "UTC",
+                "date": "2026-03-31T18:45:00+00:00",
+                "timestamp": 1774982700,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Stadiumi Fadil Vokrri",
+                    "city": "Pristina"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 32,
+                "name": "World Cup - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/32.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Final",
+                "standings": true
+            },
+            "teams": {
+                "home": {
+                    "id": 1111,
+                    "name": "Kosovo",
+                    "logo": "https://media.api-sports.io/football/teams/1111.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 777,
+                    "name": "Türkiye",
+                    "logo": "https://media.api-sports.io/football/teams/777.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1537581,
+                "referee": "S. Vincic",
+                "timezone": "UTC",
+                "date": "2026-03-31T18:45:00+00:00",
+                "timestamp": 1774982700,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Strawberry Arena",
+                    "city": "Solna"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 32,
+                "name": "World Cup - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/32.png",
+                "flag": null,
+                "season": 2024,
+                "round": "Final",
+                "standings": true
+            },
+            "teams": {
+                "home": {
+                    "id": 5,
+                    "name": "Sweden",
+                    "logo": "https://media.api-sports.io/football/teams/5.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 24,
+                    "name": "Poland",
+                    "logo": "https://media.api-sports.io/football/teams/24.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1537582,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-03-30T23:00:00+00:00",
-                "timestamp": 1774911600,
+                "date": "2026-03-31T21:00:00+00:00",
+                "timestamp": 1774990800,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio Akron",
+                    "city": "Zapopan"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 37,
+                "name": "World Cup - Qualification Intercontinental Play-offs",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/37.png",
+                "flag": null,
+                "season": 2026,
+                "round": "Final",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1508,
+                    "name": "Congo DR",
+                    "logo": "https://media.api-sports.io/football/teams/1508.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 2385,
+                    "name": "Jamaica",
+                    "logo": "https://media.api-sports.io/football/teams/2385.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1520615,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-31T21:30:00+00:00",
+                "timestamp": 1774992600,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio Alfredo Jaconi",
+                    "city": "Caxias do Sul"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 72,
+                "name": "Serie B",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/72.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Regular Season - 2",
+                "standings": true
+            },
+            "teams": {
+                "home": {
+                    "id": 152,
+                    "name": "Juventude",
+                    "logo": "https://media.api-sports.io/football/teams/152.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 7834,
+                    "name": "Novorizontino",
+                    "logo": "https://media.api-sports.io/football/teams/7834.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1520614,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-31T22:00:00+00:00",
+                "timestamp": 1774994400,
                 "periods": {
                     "first": null,
                     "second": null
@@ -224,7 +644,77 @@
                 "venue": {
                     "id": null,
                     "name": null,
-                    "city": null
+                    "city": "Fortaleza"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 72,
+                "name": "Serie B",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/72.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Regular Season - 2",
+                "standings": true
+            },
+            "teams": {
+                "home": {
+                    "id": 154,
+                    "name": "Fortaleza EC",
+                    "logo": "https://media.api-sports.io/football/teams/154.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1193,
+                    "name": "Cuiaba",
+                    "logo": "https://media.api-sports.io/football/teams/1193.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1537274,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-03-31T23:00:00+00:00",
+                "timestamp": 1774998000,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadio Municipal Jose Angelo Cassol",
+                    "city": "Rolim de Moura"
                 },
                 "status": {
                     "long": "Not Started",
@@ -245,15 +735,15 @@
             },
             "teams": {
                 "home": {
-                    "id": 7868,
-                    "name": "Trem",
-                    "logo": "https://media.api-sports.io/football/teams/7868.png",
+                    "id": 12944,
+                    "name": "Guaporé",
+                    "logo": "https://media.api-sports.io/football/teams/12944.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 12916,
-                    "name": "GAS",
-                    "logo": "https://media.api-sports.io/football/teams/12916.png",
+                    "id": 149,
+                    "name": "Paysandu",
+                    "logo": "https://media.api-sports.io/football/teams/149.png",
                     "winner": null
                 }
             },
