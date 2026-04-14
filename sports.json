@@ -2,19 +2,159 @@
     "JOGOS_ESPORTES": [
         {
             "fixture": {
-                "id": 1530636,
+                "id": 1488310,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-04-13T12:30:00+00:00",
-                "timestamp": 1776083400,
+                "date": "2026-04-14T00:00:00+00:00",
+                "timestamp": 1776124800,
+                "periods": {
+                    "first": 1776124800,
+                    "second": 1776128400
+                },
+                "venue": {
+                    "id": null,
+                    "name": null,
+                    "city": "Willemstad"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": 5
+                }
+            },
+            "league": {
+                "id": 927,
+                "name": "World Cup - Women - Qualification Concacaf",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/927.png",
+                "flag": null,
+                "season": 2026,
+                "round": "Group Stage",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 19142,
+                    "name": "Curaçao W",
+                    "logo": "https://media.api-sports.io/football/teams/19142.png",
+                    "winner": false
+                },
+                "away": {
+                    "id": 19137,
+                    "name": "Aruba W",
+                    "logo": "https://media.api-sports.io/football/teams/19137.png",
+                    "winner": true
+                }
+            },
+            "goals": {
+                "home": 1,
+                "away": 6
+            },
+            "score": {
+                "halftime": {
+                    "home": 0,
+                    "away": 2
+                },
+                "fulltime": {
+                    "home": 1,
+                    "away": 6
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1488309,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T01:00:00+00:00",
+                "timestamp": 1776128400,
+                "periods": {
+                    "first": 1776128400,
+                    "second": 1776132000
+                },
+                "venue": {
+                    "id": null,
+                    "name": "FFB Field",
+                    "city": "Belmopan"
+                },
+                "status": {
+                    "long": "Match Finished",
+                    "short": "FT",
+                    "elapsed": 90,
+                    "extra": 4
+                }
+            },
+            "league": {
+                "id": 927,
+                "name": "World Cup - Women - Qualification Concacaf",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/927.png",
+                "flag": null,
+                "season": 2026,
+                "round": "Group Stage",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 19138,
+                    "name": "Belize W",
+                    "logo": "https://media.api-sports.io/football/teams/19138.png",
+                    "winner": true
+                },
+                "away": {
+                    "id": 19136,
+                    "name": "Anguilla W",
+                    "logo": "https://media.api-sports.io/football/teams/19136.png",
+                    "winner": false
+                }
+            },
+            "goals": {
+                "home": 2,
+                "away": 0
+            },
+            "score": {
+                "halftime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "fulltime": {
+                    "home": 2,
+                    "away": 0
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523884,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T12:00:00+00:00",
+                "timestamp": 1776168000,
                 "periods": {
                     "first": null,
                     "second": null
                 },
                 "venue": {
                     "id": null,
-                    "name": null,
-                    "city": null
+                    "name": "Vazgen Sargsyan Republican Stadium",
+                    "city": "Yerevan"
                 },
                 "status": {
                     "long": "Not Started",
@@ -24,26 +164,26 @@
                 }
             },
             "league": {
-                "id": 1069,
-                "name": "Goiano U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1069.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 6",
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
                 "standings": false
             },
             "teams": {
                 "home": {
-                    "id": 12961,
-                    "name": "Goiás U20",
-                    "logo": "https://media.api-sports.io/football/teams/12961.png",
+                    "id": 14457,
+                    "name": "Armenia W",
+                    "logo": "https://media.api-sports.io/football/teams/14457.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 27626,
-                    "name": "Anapolis U20",
-                    "logo": "https://media.api-sports.io/football/teams/27626.png",
+                    "id": 1744,
+                    "name": "Belarus W",
+                    "logo": "https://media.api-sports.io/football/teams/1744.png",
                     "winner": null
                 }
             },
@@ -72,19 +212,19 @@
         },
         {
             "fixture": {
-                "id": 1536115,
+                "id": 1523880,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-04-13T18:00:00+00:00",
-                "timestamp": 1776103200,
+                "date": "2026-04-14T14:00:00+00:00",
+                "timestamp": 1776175200,
                 "periods": {
                     "first": null,
                     "second": null
                 },
                 "venue": {
                     "id": null,
-                    "name": null,
-                    "city": null
+                    "name": "Stadion Aleksandar Shalamanov",
+                    "city": "Sofia"
                 },
                 "status": {
                     "long": "Not Started",
@@ -94,26 +234,26 @@
                 }
             },
             "league": {
-                "id": 1107,
-                "name": "Mineiro U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1107.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 3",
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
                 "standings": false
             },
             "teams": {
                 "home": {
-                    "id": 23644,
-                    "name": "Betim U20",
-                    "logo": "https://media.api-sports.io/football/teams/23644.png",
+                    "id": 15291,
+                    "name": "Bulgaria W",
+                    "logo": "https://media.api-sports.io/football/teams/15291.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 25889,
-                    "name": "Itabirito U20",
-                    "logo": "https://media.api-sports.io/football/teams/25889.png",
+                    "id": 1755,
+                    "name": "Kosovo W",
+                    "logo": "https://media.api-sports.io/football/teams/1755.png",
                     "winner": null
                 }
             },
@@ -142,11 +282,431 @@
         },
         {
             "fixture": {
-                "id": 1539788,
+                "id": 1523881,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-04-13T18:00:00+00:00",
-                "timestamp": 1776103200,
+                "date": "2026-04-14T14:00:00+00:00",
+                "timestamp": 1776175200,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Stadion Petar Milosevski",
+                    "city": "Bitola"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 16061,
+                    "name": "North Macedonia",
+                    "logo": "https://media.api-sports.io/football/teams/16061.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1742,
+                    "name": "Hungary W",
+                    "logo": "https://media.api-sports.io/football/teams/1742.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523883,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T14:00:00+00:00",
+                "timestamp": 1776175200,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Nisporeni stadium",
+                    "city": null
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1757,
+                    "name": "Moldova W",
+                    "logo": "https://media.api-sports.io/football/teams/1757.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 16063,
+                    "name": "Cyprus W",
+                    "logo": "https://media.api-sports.io/football/teams/16063.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523877,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T15:00:00+00:00",
+                "timestamp": 1776178800,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "LSC sporto kompleksas Druskininkai",
+                    "city": "Druskininkai"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1764,
+                    "name": "Lithuania W",
+                    "logo": "https://media.api-sports.io/football/teams/1764.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 14455,
+                    "name": "Bosnia-Herzegovina W",
+                    "logo": "https://media.api-sports.io/football/teams/14455.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523878,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T15:00:00+00:00",
+                "timestamp": 1776178800,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "A. Le Coq Arena",
+                    "city": "Tallinn"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1753,
+                    "name": "Estonia W",
+                    "logo": "https://media.api-sports.io/football/teams/1753.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 16936,
+                    "name": "Liechtenstein W",
+                    "logo": "https://media.api-sports.io/football/teams/16936.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523861,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T15:30:00+00:00",
+                "timestamp": 1776180600,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Letni stadion na Zadnich Vinohradech",
+                    "city": "Chomutov"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1743,
+                    "name": "Czech Republic W",
+                    "logo": "https://media.api-sports.io/football/teams/1743.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1761,
+                    "name": "Montenegro W",
+                    "logo": "https://media.api-sports.io/football/teams/1761.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523874,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T15:30:00+00:00",
+                "timestamp": 1776180600,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Bolt Arena",
+                    "city": "Helsinki"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1771,
+                    "name": "Finland W",
+                    "logo": "https://media.api-sports.io/football/teams/1771.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1770,
+                    "name": "Slovakia W",
+                    "logo": "https://media.api-sports.io/football/teams/1770.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523862,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T16:00:00+00:00",
+                "timestamp": 1776182400,
                 "periods": {
                     "first": null,
                     "second": null
@@ -164,26 +724,26 @@
                 }
             },
             "league": {
-                "id": 1076,
-                "name": "Catarinense U20",
-                "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/1076.png",
-                "flag": "https://media.api-sports.io/flags/br.svg",
-                "season": 2026,
-                "round": "Regular Season - 2",
-                "standings": true
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
             },
             "teams": {
                 "home": {
-                    "id": 20755,
-                    "name": "Figueirense U20",
-                    "logo": "https://media.api-sports.io/football/teams/20755.png",
+                    "id": 1752,
+                    "name": "Faroe Islands W",
+                    "logo": "https://media.api-sports.io/football/teams/1752.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 13019,
-                    "name": "Joinville U20",
-                    "logo": "https://media.api-sports.io/football/teams/13019.png",
+                    "id": 1765,
+                    "name": "Greece W",
+                    "logo": "https://media.api-sports.io/football/teams/1765.png",
                     "winner": null
                 }
             },
@@ -212,19 +772,19 @@
         },
         {
             "fixture": {
-                "id": 1378178,
-                "referee": "M. Fabbri",
+                "id": 1523864,
+                "referee": null,
                 "timezone": "UTC",
-                "date": "2026-04-13T18:45:00+00:00",
-                "timestamp": 1776105900,
+                "date": "2026-04-14T16:00:00+00:00",
+                "timestamp": 1776182400,
                 "periods": {
                     "first": null,
                     "second": null
                 },
                 "venue": {
                     "id": null,
-                    "name": "Stadio Artemio Franchi",
-                    "city": "Florence"
+                    "name": "Ullevaal Stadion",
+                    "city": "Oslo"
                 },
                 "status": {
                     "long": "Not Started",
@@ -234,26 +794,26 @@
                 }
             },
             "league": {
-                "id": 135,
-                "name": "Serie A",
-                "country": "Italy",
-                "logo": "https://media.api-sports.io/football/leagues/135.png",
-                "flag": "https://media.api-sports.io/flags/it.svg",
-                "season": 2025,
-                "round": "Regular Season - 32",
-                "standings": true
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
             },
             "teams": {
                 "home": {
-                    "id": 502,
-                    "name": "Fiorentina",
-                    "logo": "https://media.api-sports.io/football/teams/502.png",
+                    "id": 1724,
+                    "name": "Norway W",
+                    "logo": "https://media.api-sports.io/football/teams/1724.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 487,
-                    "name": "Lazio",
-                    "logo": "https://media.api-sports.io/football/teams/487.png",
+                    "id": 1774,
+                    "name": "Slovenia W",
+                    "logo": "https://media.api-sports.io/football/teams/1774.png",
                     "winner": null
                 }
             },
@@ -282,151 +842,781 @@
         },
         {
             "fixture": {
-                "id": 1379285,
-                "referee": "P. Tierney",
-                "timezone": "UTC",
-                "date": "2026-04-13T19:00:00+00:00",
-                "timestamp": 1776106800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": 556,
-                    "name": "Old Trafford",
-                    "city": "Manchester"
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 39,
-                "name": "Premier League",
-                "country": "England",
-                "logo": "https://media.api-sports.io/football/leagues/39.png",
-                "flag": "https://media.api-sports.io/flags/gb-eng.svg",
-                "season": 2025,
-                "round": "Regular Season - 32",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 33,
-                    "name": "Manchester United",
-                    "logo": "https://media.api-sports.io/football/teams/33.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 63,
-                    "name": "Leeds",
-                    "logo": "https://media.api-sports.io/football/teams/63.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1391123,
-                "referee": "A. Quintero",
-                "timezone": "UTC",
-                "date": "2026-04-13T19:00:00+00:00",
-                "timestamp": 1776106800,
-                "periods": {
-                    "first": null,
-                    "second": null
-                },
-                "venue": {
-                    "id": 1482,
-                    "name": "Estadio Ciudad de Valencia",
-                    "city": "Valencia"
-                },
-                "status": {
-                    "long": "Not Started",
-                    "short": "NS",
-                    "elapsed": null,
-                    "extra": null
-                }
-            },
-            "league": {
-                "id": 140,
-                "name": "La Liga",
-                "country": "Spain",
-                "logo": "https://media.api-sports.io/football/leagues/140.png",
-                "flag": "https://media.api-sports.io/flags/es.svg",
-                "season": 2025,
-                "round": "Regular Season - 31",
-                "standings": true
-            },
-            "teams": {
-                "home": {
-                    "id": 539,
-                    "name": "Levante",
-                    "logo": "https://media.api-sports.io/football/teams/539.png",
-                    "winner": null
-                },
-                "away": {
-                    "id": 546,
-                    "name": "Getafe",
-                    "logo": "https://media.api-sports.io/football/teams/546.png",
-                    "winner": null
-                }
-            },
-            "goals": {
-                "home": null,
-                "away": null
-            },
-            "score": {
-                "halftime": {
-                    "home": null,
-                    "away": null
-                },
-                "fulltime": {
-                    "home": null,
-                    "away": null
-                },
-                "extratime": {
-                    "home": null,
-                    "away": null
-                },
-                "penalty": {
-                    "home": null,
-                    "away": null
-                }
-            }
-        },
-        {
-            "fixture": {
-                "id": 1526769,
+                "id": 1523870,
                 "referee": null,
                 "timezone": "UTC",
-                "date": "2026-04-13T23:00:00+00:00",
-                "timestamp": 1776121200,
+                "date": "2026-04-14T16:00:00+00:00",
+                "timestamp": 1776182400,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Polsat Plus Arena",
+                    "city": "Gdansk"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1749,
+                    "name": "Poland W",
+                    "logo": "https://media.api-sports.io/football/teams/1749.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 14456,
+                    "name": "Republic of Ireland",
+                    "logo": "https://media.api-sports.io/football/teams/14456.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523863,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T16:15:00+00:00",
+                "timestamp": 1776183300,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Max-Morlock-Stadion",
+                    "city": "Nuremberg"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1719,
+                    "name": "Germany W",
+                    "logo": "https://media.api-sports.io/football/teams/1719.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 14458,
+                    "name": "Austria W",
+                    "logo": "https://media.api-sports.io/football/teams/14458.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523867,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T16:15:00+00:00",
+                "timestamp": 1776183300,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 0,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1773,
+                    "name": "Serbia W",
+                    "logo": "https://media.api-sports.io/football/teams/1773.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1748,
+                    "name": "Italy W",
+                    "logo": "https://media.api-sports.io/football/teams/1748.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523868,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T17:00:00+00:00",
+                "timestamp": 1776186000,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Gamla Ullevi",
+                    "city": null
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1739,
+                    "name": "Sweden W",
+                    "logo": "https://media.api-sports.io/football/teams/1739.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1779,
+                    "name": "Denmark W",
+                    "logo": "https://media.api-sports.io/football/teams/1779.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523871,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T17:00:00+00:00",
+                "timestamp": 1776186000,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Letzigrund Stadion",
+                    "city": null
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1732,
+                    "name": "Switzerland W",
+                    "logo": "https://media.api-sports.io/football/teams/1732.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1759,
+                    "name": "Turkey W",
+                    "logo": "https://media.api-sports.io/football/teams/1759.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523873,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T17:00:00+00:00",
+                "timestamp": 1776186000,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Daugavas stadions",
+                    "city": "Riga"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1754,
+                    "name": "Latvia W",
+                    "logo": "https://media.api-sports.io/football/teams/1754.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1769,
+                    "name": "Portugal W",
+                    "logo": "https://media.api-sports.io/football/teams/1769.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523879,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T17:00:00+00:00",
+                "timestamp": 1776186000,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Europa point stadium",
+                    "city": null
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 16929,
+                    "name": "Gibraltar W",
+                    "logo": "https://media.api-sports.io/football/teams/16929.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1767,
+                    "name": "Croatia W",
+                    "logo": "https://media.api-sports.io/football/teams/1767.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523882,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T17:00:00+00:00",
+                "timestamp": 1776186000,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Estadi Nacional",
+                    "city": "Andorra la Vella"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1756,
+                    "name": "Andorra W",
+                    "logo": "https://media.api-sports.io/football/teams/1756.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 16062,
+                    "name": "Azerbaijan W",
+                    "logo": "https://media.api-sports.io/football/teams/16062.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523876,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T17:15:00+00:00",
+                "timestamp": 1776186900,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 0,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1760,
+                    "name": "Israel W",
+                    "logo": "https://media.api-sports.io/football/teams/1760.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1758,
+                    "name": "Luxembourg W",
+                    "logo": "https://media.api-sports.io/football/teams/1758.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523865,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T18:00:00+00:00",
+                "timestamp": 1776189600,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Wembley Stadium",
+                    "city": "London"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1721,
+                    "name": "England W",
+                    "logo": "https://media.api-sports.io/football/teams/1721.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1736,
+                    "name": "Spain W",
+                    "logo": "https://media.api-sports.io/football/teams/1736.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523872,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T18:00:00+00:00",
+                "timestamp": 1776189600,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Mourneview Park",
+                    "city": "Lurgan"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1778,
+                    "name": "Northern Ireland W",
+                    "logo": "https://media.api-sports.io/football/teams/1778.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1763,
+                    "name": "Malta W",
+                    "logo": "https://media.api-sports.io/football/teams/1763.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1526081,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T18:00:00+00:00",
+                "timestamp": 1776189600,
                 "periods": {
                     "first": null,
                     "second": null
@@ -444,26 +1634,726 @@
                 }
             },
             "league": {
-                "id": 75,
-                "name": "Serie C",
+                "id": 740,
+                "name": "Brasileiro U20 A",
                 "country": "Brazil",
-                "logo": "https://media.api-sports.io/football/leagues/75.png",
+                "logo": "https://media.api-sports.io/football/leagues/740.png",
                 "flag": "https://media.api-sports.io/flags/br.svg",
                 "season": 2026,
-                "round": "Regular Season - 2",
+                "round": "Regular Season - 6",
+                "standings": true
+            },
+            "teams": {
+                "home": {
+                    "id": 18345,
+                    "name": "RB Bragantino U20",
+                    "logo": "https://media.api-sports.io/football/teams/18345.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 13000,
+                    "name": "Cruzeiro U20",
+                    "logo": "https://media.api-sports.io/football/teams/13000.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523860,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T18:15:00+00:00",
+                "timestamp": 1776190500,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Racecourse Ground",
+                    "city": "Wrexham"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
                 "standings": false
             },
             "teams": {
                 "home": {
-                    "id": 137,
-                    "name": "Figueirense",
-                    "logo": "https://media.api-sports.io/football/teams/137.png",
+                    "id": 1772,
+                    "name": "Wales W",
+                    "logo": "https://media.api-sports.io/football/teams/1772.png",
                     "winner": null
                 },
                 "away": {
-                    "id": 7833,
-                    "name": "Maringá",
-                    "logo": "https://media.api-sports.io/football/teams/7833.png",
+                    "id": 1751,
+                    "name": "Albania W",
+                    "logo": "https://media.api-sports.io/football/teams/1751.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523866,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T18:30:00+00:00",
+                "timestamp": 1776191400,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": 0,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1746,
+                    "name": "Iceland W",
+                    "logo": "https://media.api-sports.io/football/teams/1746.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1750,
+                    "name": "Ukraine W",
+                    "logo": "https://media.api-sports.io/football/teams/1750.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523875,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T18:30:00+00:00",
+                "timestamp": 1776191400,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Easter Road",
+                    "city": "Edinburgh"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1775,
+                    "name": "Scotland W",
+                    "logo": "https://media.api-sports.io/football/teams/1775.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1777,
+                    "name": "Belgium W",
+                    "logo": "https://media.api-sports.io/football/teams/1777.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1523869,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T18:45:00+00:00",
+                "timestamp": 1776192300,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Rat Verlegh Stadion",
+                    "city": "Breda"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 880,
+                "name": "World Cup - Women - Qualification Europe",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/880.png",
+                "flag": null,
+                "season": 2027,
+                "round": "Group Stage - 3",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 1733,
+                    "name": "Netherlands W",
+                    "logo": "https://media.api-sports.io/football/teams/1733.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 1725,
+                    "name": "France W",
+                    "logo": "https://media.api-sports.io/football/teams/1725.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1488311,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T19:00:00+00:00",
+                "timestamp": 1776193200,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Daren Sammy Cricket Ground",
+                    "city": "Gros Islet"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 927,
+                "name": "World Cup - Women - Qualification Concacaf",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/927.png",
+                "flag": null,
+                "season": 2026,
+                "round": "Group Stage",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 19143,
+                    "name": "Dominica W",
+                    "logo": "https://media.api-sports.io/football/teams/19143.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 18468,
+                    "name": "Antigua and Barbuda W",
+                    "logo": "https://media.api-sports.io/football/teams/18468.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1526077,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T19:00:00+00:00",
+                "timestamp": 1776193200,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": null,
+                    "city": null
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 740,
+                "name": "Brasileiro U20 A",
+                "country": "Brazil",
+                "logo": "https://media.api-sports.io/football/leagues/740.png",
+                "flag": "https://media.api-sports.io/flags/br.svg",
+                "season": 2026,
+                "round": "Regular Season - 6",
+                "standings": true
+            },
+            "teams": {
+                "home": {
+                    "id": 13001,
+                    "name": "Cuiabá U20",
+                    "logo": "https://media.api-sports.io/football/teams/13001.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 22875,
+                    "name": "Botafogo U20",
+                    "logo": "https://media.api-sports.io/football/teams/22875.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1534910,
+                "referee": "C. Turpin",
+                "timezone": "UTC",
+                "date": "2026-04-14T19:00:00+00:00",
+                "timestamp": 1776193200,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Metropolitano Stadium",
+                    "city": "Madrid"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 2,
+                "name": "UEFA Champions League",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/2.png",
+                "flag": null,
+                "season": 2025,
+                "round": "Quarter-finals",
+                "standings": true
+            },
+            "teams": {
+                "home": {
+                    "id": 530,
+                    "name": "Atletico Madrid",
+                    "logo": "https://media.api-sports.io/football/teams/530.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 529,
+                    "name": "Barcelona",
+                    "logo": "https://media.api-sports.io/football/teams/529.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1534912,
+                "referee": "M. Mariani",
+                "timezone": "UTC",
+                "date": "2026-04-14T19:00:00+00:00",
+                "timestamp": 1776193200,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Anfield",
+                    "city": "Liverpool"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 2,
+                "name": "UEFA Champions League",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/2.png",
+                "flag": null,
+                "season": 2025,
+                "round": "Quarter-finals",
+                "standings": true
+            },
+            "teams": {
+                "home": {
+                    "id": 40,
+                    "name": "Liverpool",
+                    "logo": "https://media.api-sports.io/football/teams/40.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 85,
+                    "name": "Paris Saint Germain",
+                    "logo": "https://media.api-sports.io/football/teams/85.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1488313,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T21:00:00+00:00",
+                "timestamp": 1776200400,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Arnos Vale Stadium",
+                    "city": "Kingstown"
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 927,
+                "name": "World Cup - Women - Qualification Concacaf",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/927.png",
+                "flag": null,
+                "season": 2026,
+                "round": "Group Stage",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 18446,
+                    "name": "Barbados W",
+                    "logo": "https://media.api-sports.io/football/teams/18446.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 18467,
+                    "name": "US Virgin Islands W",
+                    "logo": "https://media.api-sports.io/football/teams/18467.png",
+                    "winner": null
+                }
+            },
+            "goals": {
+                "home": null,
+                "away": null
+            },
+            "score": {
+                "halftime": {
+                    "home": null,
+                    "away": null
+                },
+                "fulltime": {
+                    "home": null,
+                    "away": null
+                },
+                "extratime": {
+                    "home": null,
+                    "away": null
+                },
+                "penalty": {
+                    "home": null,
+                    "away": null
+                }
+            }
+        },
+        {
+            "fixture": {
+                "id": 1488312,
+                "referee": null,
+                "timezone": "UTC",
+                "date": "2026-04-14T21:30:00+00:00",
+                "timestamp": 1776202200,
+                "periods": {
+                    "first": null,
+                    "second": null
+                },
+                "venue": {
+                    "id": null,
+                    "name": "Kirani James Athletic Stadium",
+                    "city": null
+                },
+                "status": {
+                    "long": "Not Started",
+                    "short": "NS",
+                    "elapsed": null,
+                    "extra": null
+                }
+            },
+            "league": {
+                "id": 927,
+                "name": "World Cup - Women - Qualification Concacaf",
+                "country": "World",
+                "logo": "https://media.api-sports.io/football/leagues/927.png",
+                "flag": null,
+                "season": 2026,
+                "round": "Group Stage",
+                "standings": false
+            },
+            "teams": {
+                "home": {
+                    "id": 19144,
+                    "name": "Grenada W",
+                    "logo": "https://media.api-sports.io/football/teams/19144.png",
+                    "winner": null
+                },
+                "away": {
+                    "id": 19141,
+                    "name": "Cayman Islands W",
+                    "logo": "https://media.api-sports.io/football/teams/19141.png",
                     "winner": null
                 }
             },
