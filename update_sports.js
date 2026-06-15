@@ -3,51 +3,50 @@ const https = require('https');
 const path = require('path');
 
 // Configurações
-const API_KEY = process.env.API_FOOTBALL_KEY;
-const BASE_URL = 'v3.football.api-sports.io';
+const API_KEY = process.env.FOOTBALL_DATA_KEY; // novo secret no GitHub Actions
+const BASE_URL = 'api.football-data.org';
 const UPDATE_JSON_PATH = path.join(__dirname, 'sports.json');
 
-// Lista completa de ligas para garantir que todos os jogos apareçam
-const TARGET_LEAGUES = [
-    71, 72, 73, 75, 76, // Brasil: Serie A, B, C, Copa do Brasil, Supercopa
-    39, 40, 41, 42, 45, 48, // Inglaterra
-    140, 141, 143, // Espanha
-    135, 136, 137, // Itália
-    78, 79, 81, // Alemanha
-    61, 62, 63, // França
-    2, 3, 5, 848, 13, 11, 810 // Internacionais (Champions, Libertadores, etc)
-];
+// Competições disponíveis no plano gratuito da football-data.org
+const TARGET_COMPETITIONS = ['PL', 'PD', 'BL1', 'SA', 'FL1', 'CL', 'DED', 'PPL', 'ELC', 'BSA', 'WC', 'EC'];
 
 if (!API_KEY) {
-    console.error("ERRO: API_FOOTBALL_KEY não definida nos Secrets.");
+    console.error("ERRO: FOOTBALL_DATA_KEY não definida nos Secrets.");
     process.exit(1);
 }
 
 function getTodayDateStringBR() {
     const now = new Date();
-    // Ajuste para BRT (UTC-3)
-    const brDate = new Date(now.getTime() - (3 * 60 * 60 * 1000));
+    const brDate = new Date(now.getTime() - (3 * 60 * 60 * 1000)); // Ajuste BRT (UTC-3)
     const year = brDate.getFullYear();
     const month = String(brDate.getMonth() + 1).padStart(2, '0');
     const day = String(brDate.getDate()).padStart(2, '0');
     return `${year}-${month}-${day}`;
 }
 
-function fetchApiFootball(endpoint) {
+function fetchFootballData(endpoint) {
     return new Promise((resolve, reject) => {
         const options = {
             hostname: BASE_URL,
             path: endpoint,
             method: 'GET',
-            headers: { 'x-apisports-key': API_KEY }
+            headers: { 'X-Auth-Token': API_KEY }
         };
         const req = https.request(options, (res) => {
             let data = '';
             res.on('data', (chunk) => { data += chunk; });
             res.on('end', () => {
                 try {
+                    if (res.statusCode === 429) {
+                        console.warn(`Rate limit (429) em ${endpoint} — pulando.`);
+                        return resolve(null);
+                    }
+                    if (res.statusCode !== 200) {
+                        console.warn(`Status ${res.statusCode} em ${endpoint}`);
+                        return resolve(null);
+                    }
                     const json = JSON.parse(data);
-                    resolve(json.response || []);
+                    resolve(json);
                 } catch (e) { reject(e); }
             });
         });
@@ -56,48 +55,51 @@ function fetchApiFootball(endpoint) {
     });
 }
 
+const delay = ms => new Promise(res => setTimeout(res, ms));
+
 async function updateSportsData() {
     const dateStr = getTodayDateStringBR();
     try {
-        console.log(`Buscando grade completa (BRT): ${dateStr}`);
-        const todayMatches = await fetchApiFootball(`/fixtures?date=${dateStr}&timezone=America/Sao_Paulo`);
-        
-        const filteredMatches = todayMatches.filter(match => 
-            TARGET_LEAGUES.includes(match.league.id) || 
-            match.league.country === 'Brazil' ||
-            match.league.name.includes('World')
+        console.log(`Buscando grade do dia (BRT): ${dateStr}`);
+
+        // 1 requisição = todos os jogos de hoje, de todas as competições do plano
+        const matchesResponse = await fetchFootballData(`/v4/matches?dateFrom=${dateStr}&dateTo=${dateStr}`);
+        const todayMatches = (matchesResponse && matchesResponse.matches) || [];
+
+        const filteredMatches = todayMatches.filter(match =>
+            TARGET_COMPETITIONS.includes(match.competition.code)
         );
-        
-        const delay = ms => new Promise(res => setTimeout(res, ms));
-        
-        for (const match of filteredMatches) {
-            console.log(`Enriquecendo: ${match.teams.home.name} x ${match.teams.away.name}`);
-            try {
-                match.app_lineups = await fetchApiFootball(`/fixtures/lineups?fixture=${match.fixture.id}`);
-                await delay(200);
-                match.app_statistics = await fetchApiFootball(`/fixtures/statistics?fixture=${match.fixture.id}`);
-                await delay(200);
-                
-                let season = match.league.season || 2024;
-                let standings = await fetchApiFootball(`/standings?league=${match.league.id}&season=${season}`);
-                if (!standings || standings.length === 0) {
-                    standings = await fetchApiFootball(`/standings?league=${match.league.id}&season=${season - 1}`);
-                }
-                match.app_standings = standings;
-                await delay(200);
-            } catch(e) { console.warn(`Erro no jogo ${match.fixture.id}`); }
+
+        console.log(`Jogos encontrados hoje: ${filteredMatches.length}`);
+
+        // Tabela de classificação: 1 requisição por competição que tem jogo hoje
+        // (cacheada, não repete por jogo). Limite free = 10 req/min, então
+        // espaçamos 6.5s entre chamadas pra ficar bem seguro.
+        const standingsCache = {};
+        const competitionsToday = [...new Set(filteredMatches.map(m => m.competition.code))];
+
+        for (const code of competitionsToday) {
+            console.log(`Buscando tabela: ${code}`);
+            await delay(6500);
+            standingsCache[code] = await fetchFootballData(`/v4/competitions/${code}/standings`);
         }
 
-        const updateData = { 
+        for (const match of filteredMatches) {
+            match.app_standings = standingsCache[match.competition.code] || null;
+        }
+
+        const updateData = {
             JOGOS_ESPORTES: filteredMatches,
-            updated_at: new Date().toISOString() 
+            updated_at: new Date().toISOString()
         };
 
         fs.writeFileSync(UPDATE_JSON_PATH, JSON.stringify(updateData, null, 2), 'utf8');
-        console.log("Sucesso: sports.json atualizado no GitHub.");
+        console.log(`Sucesso: sports.json atualizado (${filteredMatches.length} jogos).`);
+
     } catch (error) {
         console.error("Erro fatal:", error);
         process.exit(1);
     }
 }
+
 updateSportsData();
